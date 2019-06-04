@@ -3,15 +3,249 @@
 
 <head>
 	<meta charset="utf-8" />
+	<title>Style Guide Template</title>
+	
 	<link rel="stylesheet" href="main.css">
-
-	<title>soap</title>
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="normalize.css">
 </head>
 
 
 <body>
-<h1>HELLO </h1>
-<p>hello</p>
+<h1>Style Guide</h1>
+
+   <nav class="nav-main">
+      
+        <a href="#interactive_elements" class="nav-main-item">Interactive Elements</a>
+        <a href="#text_elements" class="nav-main-item">Text Elements</a>
+        <a href="#combined_elements" class="nav-main-item">Combined Elements</a>
+        <a href="wireframes.html" class="nav-main-item">Wireframes</a>
+        <a href="citations.html" class="nav-main-item">Citations</a>
+
+    </nav>
+
+<!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;BUTTON&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">BUTTON</a>
+
+      </section>
+
+
+      
+      <section>
+        
+        <h2>In-text link</h2>
+        
+        <h3>CSS selector:</h3>
+        <p>.in-text-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt;an in-text link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="in-text-link" href="#">an in-text link</a>
+
+      </section>
+
+
+      
+      <section>
+
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-sub</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Submit Button&lt;/a&gt;</code>
+        <br>
+        <code>&lt;a href="#" class="button"&gt;Reset Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-sub" href="#">submit</a>
+        <a class="button-sub" href="#">reset</a>
+
+      </section>
+
+
+      
+      <section>
+
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>#form-comment</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;form method="post" action="#"&gt;</code>
+        <br>
+        <code>&lt;label for="form-comment">Customer Review:&lt;/label&gt;</code>
+        <br>
+        <code>&lt;textarea id="form-comment" placeholder="Write your review here..."&gt;&lt;/textarea&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <form method="post" action="#">
+        <label for="form-comment">Customer Review:</label>
+        <textarea id="form-comment" placeholder="Write your review here..."></textarea>
+        </form>
+
+      </section>
+
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+      </section>
+
+
+      <section>
+
+        <h2>Paragraphs</h2>
+
+        <h3>CSS selector:</h3>
+        <p>section p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit,   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. &nbsp;&nbsp;&nbsp;&nbsp;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure &nbsp;&nbsp;&nbsp;&nbsp;dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+      </section>
+
+
+
+      <section>
+
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 1&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 2&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 3&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 4&lt;/li&gt;</code>
+        <br>
+        <code>&lt;/ul&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>Soap 1</li>
+          <li>Soap 2</li>
+          <li>Soap 3</li>
+          <li>Soap 4</li>
+        </ul>
+
+      </section>
+
+
+
+      <section>
+
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 1&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 2&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 3&lt;/li&gt;</code>
+        <br>
+        <code>&lt;li&gt;Soap 4&lt;/li&gt;</code>
+        <br>
+        <code>&lt;/ol&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Soap 1</li>
+          <li>Soap 2</li>
+          <li>Soap 3</li>
+          <li>Soap 4</li>
+        </ol>
+
+      </section>
+
+
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+
+        <h2>Main Navigation</h2>
+
+
+        <h3>CSS selector:</h3>
+        <p>.button-main-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;SHOP&lt;/a&gt;</code>
+        <br>
+        <code>&lt;a href="#" class="button"&gt;ABOUT&lt;/a&gt;</code>
+
+
+        <h3>Rendered element:</h3>
+        <a class="button-main-nav" href="#">SHOP</a>
+        <a class="button-main-nav" href="#">ABOUT US</a>
+    
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-main-nav</p>
+
+        <h3>Sample code:</h3>
+  
+
+        <h3>Rendered element:</h3>
+     
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
 </body>
 
 </html>
