@@ -15,11 +15,168 @@ section h3 {
 
 section p {
   margin-top: 0.3em;
-  width: 700px;
 
 }
 
 section code {
   background-color: #EEE;
   padding: 0.05em 0.75em;
+}
+
+/* Styling for navigation bar */
+.nav-main-item{
+  display:inline-block;
+  color: black;
+  min-width: 15%;
+  max-width: 30%;
+  background-color: rgb(247, 229, 228);
+  font-size: 1.2rem;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.nav-main-item:hover, .nav-main-item:active, .nav-main-item:focus{
+  color: white;
+  background-color: rgb(236, 190, 189);
+  text-decoration: none;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+
+/* Styling for the navigation button */
+.button-nav{
+  display: inline-block;
+  padding: 0.40em 0em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus{
+  color: black;
+  text-decoration: underline;
+}
+
+
+/* Styling for in-text link */
+.hyperlink{
+  transition: color 0.5s;
+  color: rgb(25,20,239);
+}
+
+/*
+.hyperlink:hover, .hyperlink:active, .hyperlink:focus{
+  color: black;
+  text-decoration: none;
+}
+*/
+
+/* Styling for Submit/Reset Buttons */
+.button{
+  display: inline-block;
+  padding: 0.40em 0.70em;
+  color: black;
+  background-color: rgb(247, 229, 228);
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+.button:hover, .button:active, .button:focus{
+  color: white;
+  background-color: rgb(236, 190, 189);
+  text-decoration: none;
+}
+
+/* Styling for Text Input Field */
+#form-comment{
+  display: block;
+     
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+/* Styling for headings */
+/*
+h4{
+font-family: 'Audrey';
+font-size:1.25rem;
+}
+
+h5{
+font-family: 'SF-Pro-Text-Regular';
+font-size:1.0rem;
+}
+
+h6{
+font-family: 'San Francisco Display';
+font-size:0.75rem;
+}
+*/
+
+/* Styling for paragraphs */
+p{
+  font-size: 1.0rem;
+}
+
+/* Styling for bulleted list */
+.bullet-list{
+  font-size: 1.0rem;
+  letter-spacing: 0.8px;
+  line-height: 1.8;
+}
+
+/* Styling for numbered list */
+.ordered-list{
+  font-size: 1.0rem;
+  letter-spacing: 0.8px;
+  line-height: 1.8;
+}
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/* Styling for main navigation */
+.button-main-nav {
+  display: inline-block;
+  padding: 0.40em 1.5em;
+  color: black;
+  text-decoration: none;
+  -webkit-transition: background-color 5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-main-nav:hover, .button-main-nav:focus {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Styling for Colour Swatches */
+.colour-swatch-container .block1{
+ background-color: rgb(247, 229, 228);
+  height: 30px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.colour-swatch-container .block2{
+ background-color: rgb(236, 190, 189);
+  height: 30px;
+  width: 200px;
+  margin-bottom: 20px;
 }
