@@ -1,5 +1,5 @@
 body {
-  font-family: arial, georgia, sans-serif;
+  font-family: Lato, georgia, sans-serif;
   padding: 2rem;
 }
 
@@ -15,6 +15,7 @@ section h3 {
 
 section p {
   margin-top: 0.3em;
+  font-weight: normal;
 
 }
 
@@ -83,7 +84,7 @@ section code {
   /* Styling for Submit/Reset Buttons */
   .button{
     display: inline-block;
-    padding: 0.5em 0.8em;
+    padding: .8em 1.2em;
     color: black;
     background-color: rgb(247, 229, 228);
     text-decoration: none;
@@ -91,6 +92,8 @@ section code {
     transition: background-color 0.2s ease-out;
     letter-spacing: .1em;
     border: none;
+    font-family: Arial;
+    font-size: .9rem;
   }
 
   .button:hover, .button:active, .button:focus{
@@ -136,16 +139,16 @@ p{
 
 /* Styling for bulleted list */
 .bullet-list{
-  font-size: 1.0rem;
   line-height: 1.8;
   font-style: italic;
+  font-family: arial;
 }
 
 /* Styling for numbered list */
 .ordered-list{
-  font-size: 1.0rem;
   line-height: 1.8;
   font-style: italic;
+  font-family: arial;
 
 }
 
@@ -165,7 +168,7 @@ p{
 
   #product-box-right{
     flex: 1 1 50%;
-  
+
     padding-right: 7.5em;
 
   }
@@ -181,10 +184,6 @@ p{
     font-size: 1.3em;
   }
 
-  /*#product-box-4{
-    padding-bottom: 1em;
-  }*/
-
   @media (max-width: 50em) {
     .product-box{
       flex: 1 2 100%;
@@ -194,6 +193,11 @@ p{
     #product-box-right{
       max-width: 80%;
     }
+  }
+
+  #bodytext{
+    font-style: normal;
+    font-family: arial;
   }
 
 
