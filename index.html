@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>Style Guide Template</title>
-    
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
+  <meta charset="utf-8" />
+  <title>Style Guide Template</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/normalize.css">
 </head>
 
@@ -15,7 +15,7 @@
   <h1 id="header-title">Style Guide</h1>
 
   <nav class="nav-main">
-    
+
     <a href="#interactive_elements" class="nav-main-item">Interactive Elements</a>
     <a href="#text_elements" class="nav-main-item">Text Elements</a>
     <a href="#combined_elements" class="nav-main-item">Combined Elements</a>
@@ -46,7 +46,7 @@
 
     
     <section>
-      
+
       <h2 class="main-heading">In-Text HyperLink</h2>
       
       <h3>CSS selector:</h3>
@@ -250,12 +250,42 @@
       <h2 class="main-heading">Product Listing</h2>
 
       <h3>CSS selector:</h3>
-      <p>.product-listing</p>
+      <p>.product-box</p>
 
       <h3>Sample code:</h3>
+      <code>
+        &lt;div class="product-box"&gt;<br>
+        &lt;div class="product-box-half" id="product-box-left"&gt;<br>
+        &lt;div id="product-box-1"&gt;&lt;img src="soap1.jpg" id="charcoal-soap" width="60%" height="60%"&gt;&lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+
+        &lt; class="product-box-half" id="product-box-right"&gt;<br>
+        &lt;div id="product-box-2&gt;&lt;h2&gt;charcoal soap&lt;/h2&gt;&lt;/div&gt;<br>
+        &lt;div id="product-box-3&gt;&lt;p id="review-stars"&gt;★★★★☆&lt;/p&gt;&lt;/div&gt;<br>
+        &lt;div id="product-box-4&gt;&lt;h3&gt;$9.00&lt;/h3&gt;&lt;/div&gt;<br>
+        &lt;div id="product-box-5&gt;&lt;p id="bodytext"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in finibus sem, vitae convallis metus. Curabitur et nunc purus. Integer eleifend ipsum nec hendrerit ornare. Phasellus eros sem, vestibulum vitae orci sit amet, dictum dictum sem. Proin eget lacus id ante mattis vulputate. In ac imperdiet ligula. Phasellus ut auctor massa. Quisque tempus iaculis eleifend. Donec tempor pretium mi nec maximus.&lt;/p&gt;&lt;/div&gt;<br>
+        &lt;div id="product-box-6&gt;&lt;button class="button"&gt;add to cart&lt;/button&gt;&lt;/div&gt;<br>
+        &lt;/div&gt;<br>
+        &lt;/div&gt;
+      </code>
       
 
       <h3>Rendered element:</h3>
+      <div class="product-box">
+
+        <div class="product-box-half" id="product-box-left">
+          <div id="product-box-1"><img src="soap1.jpg" id="charcoal-soap" width="60%" height="60%"></div>
+        </div>
+
+        <div class="product-box-half" id="product-box-right">
+          <div id="product-box-2"><h2>charcoal soap</h2></div>
+          <div id="product-box-3"><p id="review-stars">★★★★☆</p></div>
+          <div id="product-box-4"><h3>$9.00</h3></div>
+          <div id="product-box-5"><p id="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in finibus sem, vitae convallis metus. Curabitur et nunc purus. Integer eleifend ipsum nec hendrerit ornare. Phasellus eros sem, vestibulum vitae orci sit amet, dictum dictum sem. Proin eget lacus id ante mattis vulputate. In ac imperdiet ligula. Phasellus ut auctor massa. Quisque tempus iaculis eleifend. Donec tempor pretium mi nec maximus.</p></div>
+          <div id="product-box-6"><button class="button">add to cart</button></div>
+        </div>
+
+      </div>
 
     </section>
 
@@ -291,7 +321,7 @@
 
       <h3>Rendered element:</h3>
       <div class="colour-swatch-container">
-        
+
         <div class="block1"></div>
         <div class="block2"></div>
 
