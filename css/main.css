@@ -117,53 +117,53 @@ section code {
 
   /* Styling for headings */
 
-h4{
-font-family: 'Lato';
-font-weight: normal;
-font-style: bolder;
-font-size:1.25rem;
-}
+  h4{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-style: bolder;
+    font-size:1.25rem;
+  }
 
-h5{
-font-family: 'Lato';
-font-weight:normal;
-font-style: normal;
-font-size:1.0rem;
-}
+  h5{
+    font-family: 'Lato';
+    font-weight:normal;
+    font-style: normal;
+    font-size:1.0rem;
+  }
 
-h6{
-font-family: 'Arial';
-font-weight: normal;
-font-size:0.75rem;
-}
+  h6{
+    font-family: 'Arial';
+    font-weight: normal;
+    font-size:0.75rem;
+  }
 
 
-/* Styling for paragraphs */
-p{
-  font-size: 1.0rem;
-}
+  /* Styling for paragraphs */
+  p{
+    font-size: 1.0rem;
+  }
 
-/* Styling for bulleted list */
-.bullet-list{
-  line-height: 1.8;
-  font-style: italic;
-  font-family: arial;
-}
+  /* Styling for bulleted list */
+  .bullet-list{
+    line-height: 1.8;
+    font-style: italic;
+    font-family: arial;
+  }
 
-/* Styling for numbered list */
-.ordered-list{
-  line-height: 1.8;
-  font-style: italic;
-  font-family: arial;
+  /* Styling for numbered list */
+  .ordered-list{
+    line-height: 1.8;
+    font-style: italic;
+    font-family: arial;
 
-}
+  }
 
 
 /* 
   COMBINED ELEMENTS -------------------
   */
 
-/* Styling for main navigation */
+  /* Styling for main navigation */
   .button-main-nav{
     display: inline-block;
     font-weight: bold;
@@ -172,8 +172,8 @@ p{
     margin: 1em;
   }
 
-/* Styling for Product Listing */
- 
+  /* Styling for Product Listing */
+
   *, *::before, *::after{
     box-sizing: border-box;
   }
@@ -228,15 +228,56 @@ p{
     font-family: arial;
   }
 
-/*
-  #product-box-6{
-   float: right;
+  /*Grid structure
+
+  .grid-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
+
+
+  #grid-box-1{
+    background-color: rgb(236, 190, 189);
+    flex: 5 1 100%;
+    padding: 2em;
+    border: 1px solid darkgray;
+
+  }
+
+  #grid-box-2{
+    background-color: rgb(247, 229, 228);
+    flex: 5 1 100%;
+    padding: 13em;
+    border: 1px solid darkgray;
+
+  }
+
+  #grid-box-3{
+    background-color: rgb(236, 190, 189);
+    flex: 1 1 30%;
+    padding: 8em 0em 8em 0em;
+    border-bottom: 1px solid darkgray;
+  }
+
+  #grid-box-4{
+    background-color: rgb(247, 229, 228);
+    flex: 1 1 30%;
+    padding: 8em 0em 8em 0em;
+    border-bottom: 1px solid darkgray;
+  }
+
+  #grid-box-5{
+   background-color: rgb(236, 190, 189);
+   flex: 1 1 30%;
+   padding: 8em 0em 8em 0em;
+   border-bottom: 1px solid darkgray;
+ }
 */
 
 
-  /* Styling for Colour Swatches */
-  .colour-swatch-container .block1{
+ /* Styling for Colour Swatches */
+ .colour-swatch-container .block1{
    background-color: rgb(247, 229, 228);
    height: 30px;
    width: 200px;
@@ -252,11 +293,11 @@ p{
  }
 
 
-/* Wireframes styling */
+ /* Wireframes styling */
 
-/*Desktop wireframes*/
+ /*Desktop wireframes*/
 
-.wire-box{
+ .wire-box{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
