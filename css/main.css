@@ -16,6 +16,7 @@ section h3 {
 section p {
   margin-top: 0.3em;
   font-weight: normal;
+  font-family: arial;
 
 }
 
@@ -225,3 +226,119 @@ p{
    width: 200px;
    margin-bottom: 20px;
  }
+
+
+/* Wireframes styling */
+
+/*Desktop wireframes*/
+
+.wire-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#wire-box-1{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-2{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-3{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-4{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-5{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-6{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-7{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-8{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-9{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-10{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-11{
+  flex: 12 1 16.5%;
+}
+
+#wire-box-12{
+  flex: 12 1 16.5%;
+}
+
+
+/*mobile wireframes*/
+
+.m-wire-box{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#m-wire-box-1{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-2{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-3{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-4{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-5{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-6{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-7{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-8{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-9{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-10{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-11{
+  flex: 12 1 16.5%;
+}
+
+#m-wire-box-12{
+  flex: 12 1 16.5%;
+}
