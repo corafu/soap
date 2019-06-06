@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: arial, georgia, sans-serif;
   padding: 2rem;
 }
 
@@ -27,20 +27,13 @@ section code {
 .nav-main-item{
   display:inline-block;
   color: black;
-  min-width: 15%;
-  max-width: 30%;
-  background-color: rgb(247, 229, 228);
   font-size: 1.2rem;
-  padding: 0.5rem 0.5rem;
   text-decoration: none;
-  transition: background-color 0.5s ease-out;
-  text-align: center;
-  margin: 0.5rem;
+  margin: 1em;
+  font-weight: bold;
 }
 
 .nav-main-item:hover, .nav-main-item:active, .nav-main-item:focus{
-  color: white;
-  background-color: rgb(236, 190, 189);
   text-decoration: none;
 }
 
@@ -49,44 +42,54 @@ section code {
   INTERACTIVE ELEMENTS -------------------
 */
 
-/* Styling for the navigation button */
-.button-nav{
-  display: inline-block;
-  padding: 0.40em 0em;
-  color: black;
+/* Styling for ALL navigation buttons on style guide */
+.button-nav, .nav-main-item, .button-main-nav{
   text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
-.button-nav:hover, .button-nav:focus{
+  position: relative;
   color: black;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
+.button-nav:after, .nav-main-item:after, .button-main-nav:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2.5px solid rgb(236, 190, 189);
+  transition: 0.2s;
+}
+
+.button-nav:hover:after, .nav-main-item:hover:after, .button-main-nav:hover:after{
+  width: 100%;
+}
 
 /* Styling for in-text link */
 .hyperlink{
   transition: color 0.5s;
-  color: rgb(25,20,239);
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(236, 190, 189);
 }
 
-/*
+
 .hyperlink:hover, .hyperlink:active, .hyperlink:focus{
-  color: black;
+  background-color: black;
   text-decoration: none;
+  transition: 1s;
 }
-*/
+
 
 /* Styling for Submit/Reset Buttons */
 .button{
   display: inline-block;
-  padding: 0.40em 0.70em;
+  padding: 0.5em 0.8em;
   color: black;
   background-color: rgb(247, 229, 228);
   text-decoration: none;
   -webkit-transition: background-color 0.2s ease-out;
   transition: background-color 0.2s ease-out;
+  letter-spacing: .1em;
 }
 
 .button:hover, .button:active, .button:focus{
@@ -133,15 +136,16 @@ p{
 /* Styling for bulleted list */
 .bullet-list{
   font-size: 1.0rem;
-  letter-spacing: 0.8px;
   line-height: 1.8;
+  font-style: italic;
 }
 
 /* Styling for numbered list */
 .ordered-list{
   font-size: 1.0rem;
-  letter-spacing: 0.8px;
   line-height: 1.8;
+  font-style: italic;
+
 }
 
 
@@ -150,18 +154,12 @@ p{
 */
 
 /* Styling for main navigation */
-.button-main-nav {
+.button-main-nav{
   display: inline-block;
-  padding: 0.40em 1.5em;
-  color: black;
+  font-weight: bold;
   text-decoration: none;
-  -webkit-transition: background-color 5s ease-out;
-  transition: background-color 0.5s ease-out;
-}
-
-.button-main-nav:hover, .button-main-nav:focus {
   color: black;
-  text-decoration: underline;
+  margin: 1em;
 }
 
 /* Styling for Colour Swatches */
