@@ -116,22 +116,27 @@ section code {
   */
 
   /* Styling for headings */
-/*
+
 h4{
-font-family: 'Audrey';
+font-family: 'Lato';
+font-weight: normal;
+font-style: bolder;
 font-size:1.25rem;
 }
 
 h5{
-font-family: 'SF-Pro-Text-Regular';
+font-family: 'Lato';
+font-weight:normal;
+font-style: normal;
 font-size:1.0rem;
 }
 
 h6{
-font-family: 'San Francisco Display';
+font-family: 'Arial';
+font-weight: normal;
 font-size:0.75rem;
 }
-*/
+
 
 /* Styling for paragraphs */
 p{
@@ -158,6 +163,17 @@ p{
   COMBINED ELEMENTS -------------------
   */
 
+/* Styling for main navigation */
+  .button-main-nav{
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: 1em;
+  }
+
+/* Styling for Product Listing */
+ 
   *, *::before, *::after{
     box-sizing: border-box;
   }
@@ -169,7 +185,6 @@ p{
 
   #product-box-right{
     flex: 1 1 50%;
-
     padding-right: 7.5em;
 
   }
@@ -179,11 +194,22 @@ p{
     height: 100%
     flex: 1 1 50%;
     padding-left: 5em;
+    padding-top: 1.5em;
   }  
 
   #review-stars{
     font-size: 1.3em;
   }
+
+/*
+  #product-box-1{
+    padding-top: 1em;
+  }
+
+  #product-box-half{
+    padding-top: 9em;
+  }
+  */
 
   @media (max-width: 50em) {
     .product-box{
@@ -191,6 +217,7 @@ p{
       flex-direction: column;
       align-items: center;
     }
+    
     #product-box-right{
       max-width: 80%;
     }
@@ -201,15 +228,12 @@ p{
     font-family: arial;
   }
 
-
-  /* Styling for main navigation */
-  .button-main-nav{
-    display: inline-block;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    margin: 1em;
+/*
+  #product-box-6{
+   float: right;
   }
+*/
+
 
   /* Styling for Colour Swatches */
   .colour-swatch-container .block1{
