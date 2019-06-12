@@ -1,0 +1,37 @@
+.review_new{
+	display: flex;
+	flex-direction: row;
+}
+
+#star_blank{
+	flex: 2 1 10%;
+	/*background-color: orange;*/
+	margin: 1em 7em;
+	text-align: center;
+	/*background-color: orange;*/
+}
+
+.review_form_fields{
+	flex: 2 1 90%;
+	flex-direction: column;
+	/*background-color: red;*/
+}
+
+#first_name{
+	flex: 2 1 50%;
+	margin: 2em 0;
+}
+
+#last_name{
+	flex: 2 1 50%;
+	margin: 2em 0;
+}
+
+#form_review{
+	flex: 1 1 100%;
+	margin: 2em 0;
+}
+
+#review_submit_form{
+	margin-bottom: 3em;
+}
