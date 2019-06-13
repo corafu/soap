@@ -2,6 +2,74 @@
     box-sizing: border-box;
   }
 
+  /* Styling for Text Input Field */
+  #fname{
+    display: block;
+    width: 30%; 
+    padding: 5px;
+  }
+
+  #lname{
+    display: block;
+    width: 30%; 
+    padding: 5px;
+  }
+
+  #eaddress{
+    display: block;
+    width: 80%; 
+    padding: 5px;
+  }
+  
+  #aline1{
+    display: block;
+    width: 80%; 
+    padding: 5px;
+  }
+
+  #aline2{
+    display: block;
+    width: 80%; 
+    padding: 5px;
+  }
+
+  #city{
+    display: block;
+    width: 20%; 
+    padding: 5px;
+  }
+
+  #pcode{
+    display: block;
+    width: 20%; 
+    padding: 5px;
+  }
+
+  #country{
+    display: block;
+    width: 20%; 
+    padding: 5px;
+  }
+
+  #cnumber{
+    display: block;
+    width: 80%; 
+    padding: 5px;
+  }
+ 
+  #edate{
+    display: block;
+    width: 30%; 
+    padding: 5px;
+  }
+
+  #cvv{
+    display: block;
+    width: 30%; 
+    padding: 5px;
+    }
+
+
   /* Styling for Confirm Button */
   .button{
     display: inline-block;
@@ -15,10 +83,16 @@
     border: none;
     font-family: Arial;
     font-size: .9rem;
-  }
+    margin-top: 2em;
+    }
 
   .button:hover, .button:active, .button:focus{
     color: white;
     background-color: rgb(236, 190, 189);
     text-decoration: none;
+  }
+
+  .content{
+  	 margin-left: 5rem;
+  	 margin-right: 5rem;
   }
