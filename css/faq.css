@@ -1,0 +1,46 @@
+.image{
+background-color: rgba(255,204, 153, .9);
+text-align: center;
+padding: 8em;
+}
+
+.faq p{
+  font-weight: normal;
+  font-family: arial;
+}
+
+.faq{
+	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-top: 5em;
+  	 padding-bottom: 3em;
+}
+
+#question1 {
+	padding-bottom: 0.5em;
+}
+
+#question2 {
+	padding-bottom: 0.5em;
+}
+
+#question3 {
+	padding-bottom: 0.5em;
+}
+
+
+.shipping p{
+  font-weight: normal;
+  font-family: arial;
+}
+
+.shipping{
+	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-bottom: 5em;
+}
+
+h4 {
+ font-size: 1em;
+
+}
