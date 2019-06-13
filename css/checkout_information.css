@@ -5,13 +5,13 @@
   /* Styling for Text Input Field */
   #fname{
     display: block;
-    width: 30%; 
+    width: 60%; 
     padding: 5px;
   }
 
   #lname{
     display: block;
-    width: 30%; 
+    width: 60%; 
     padding: 5px;
   }
 
@@ -69,21 +69,20 @@
     padding: 5px;
     }
 
-.grid_container1{
+.grid-container1{
 	display: flex;
-	flex-flow: row wrap;
 }
 
-#grid-item {
+#contact_information_item1 {
 	padding: 1em 0em;
-	flex: 0 1 50%;
+	flex: 2 1 50%;
 }
 
-
-.grid-item1 {
-	flex: 0 1 100%;
+#contact_information_item2 {
 	padding: 1em 0em;
+	flex: 2 1 50%;
 }
+
 
   /* Styling for Confirm Button */
   .button{
