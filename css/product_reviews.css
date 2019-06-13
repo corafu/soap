@@ -35,3 +35,29 @@
 #review_submit_form{
 	margin-bottom: 3em;
 }
+
+#product_reviews{
+	border-top: 0px solid white;
+}
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 42em) {
+
+	.reviewer{
+		margin-left: 5em;
+	}
+
+	.product_r1, .product_r2, .product_r3, .product_r4{
+		flex-direction: column;
+	}
+
+	.review_new{
+		flex-direction: column;
+	}
+
+	.review_form_fields{
+		margin-left: 11em;
+	}
+
+}

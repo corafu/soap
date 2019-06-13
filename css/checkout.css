@@ -17,7 +17,7 @@
 }
 
 #checkout_label1{
-	/*background-color: blue;*/)
+	/*background-color: blue;*/
 flex: 5 1 20%;
 margin:0em 3em 0em 47.3em;
 }
@@ -34,10 +34,9 @@ margin:0em 3em 0em 47.3em;
 	margin:0em 5em 0em 3em;
 }
 
-.checkout_product1, .checkout_product2{
+.checkout_product{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: row;
 	border-bottom: 1px solid black;
 }
 
@@ -50,7 +49,7 @@ margin:0em 3em 0em 47.3em;
 	padding: 1em 0em;
 }
 
-#checkout_product1_info, #checkout_product2_info{
+.checkout_product_info{
 	/*background-color: orange;*/
 	flex: 2 1 75%;
 	display: flex;
@@ -76,19 +75,19 @@ margin:0em 3em 0em 47.3em;
 	margin-left: 4em;
 }
 
-#checkout_price{
+.checkout_price{
 	/*background-color: purple;*/
 	flex: 3 1 33%;
 	margin:0em 0em 0em 25.2em;
 }
 
-#checkout_number{
+.checkout_number{
 	/*background-color: green;*/
 	flex: 3 1 33%;
 	margin:0em 3em 0em 6.8em;
 }
 
-#checkout_total{
+.checkout_total{
 	/*background-color: yellow;*/
 	flex: 3 1 33%;
 	margin:0em 5em 6em 3em;
@@ -100,6 +99,10 @@ margin:0em 3em 0em 47.3em;
 	/*border: 4px solid purple;*/
 	margin-left: 60em;
 	margin-right: 1.5em;
+}
+
+#checkout_button{
+	margin-bottom: 2em;
 }
 
 #checkout_line3{

@@ -16,7 +16,7 @@ a{
 }
 
 .home_nav_full{
-	/*border: 7px solid black;*/
+	/*border: 7px solid purple;*/
 }
 
 /*-------home_nav_bar start------*/
@@ -33,21 +33,22 @@ a{
 	margin-left: 35em;
 }
 
-#home_box_1{
+.home_box_1{
 	background-color: rgb(247, 229, 228); /*pink;*/
 	flex: 1 1 100%;
 }
 
 #home_title{
 	margin-left: .6em;
+	color: black;
 }
 
-#home_box_2{
+.home_box_2{
 	background-color: rgb(247, 229, 228); /*orange;*/
 	flex: 1 1 100%;
 }
 
-#home_box_3{
+.home_box_3{
 	background-color: rgb(247, 229, 228);
 	padding: .3em;
 	padding-bottom: .7em;
@@ -115,7 +116,7 @@ a{
 
 /*-------hero image section start-----*/
 
-#home_box_4{
+.home_box_4{
 	background-color: rgba(255,204, 153, .9);
 	flex: 1 1 100%;
 	padding: 9.6em;
@@ -153,7 +154,7 @@ a{
 
 /*----------footer stuff start---------*/
 
-#home_box_6{
+.home_box_6{
 	background-color: rgb(247, 229, 228);
 	flex: 1 1 100%;
 	padding: 1.5em;
@@ -408,3 +409,59 @@ a{
 
 /*------set4 done------*/
 
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 78em){
+	#home_cart_icon{
+		margin-top: 1.3em;
+		margin-left: 29em;
+	}
+}
+
+@media (max-width: 70em){
+	#home_cart_icon{
+		margin-top: 2em;
+		margin-left: 18em;
+	}
+
+	.home_nav_bar2{
+		flex: 1 1 50%;
+		flex-direction: column;
+	}
+
+	#home_nav_bar2_item, #home_nav_bar2_item2{
+		margin:0;
+		margin-top: 0.3em;
+		margin-bottom: 0.3em;
+	}
+}
+
+@media (max-width: 42em) {
+	.home_nav_full, .home_nav_bar1{
+		flex-wrap: wrap;
+		flex: 2 1 50%;
+	}
+
+	#home_cart_icon{
+		display: inline-block;
+		margin-left: 26em;
+	}
+
+	.footer_set1{
+		flex: 1 1 25%;
+	}
+
+	.footer_set2{
+		flex: 1 1 25%;
+	}
+
+	.footer_set3{
+		flex: 1 1 25%;
+	}
+
+	.footer_set4{
+		flex: 1 1 25%;
+	}
+
+}

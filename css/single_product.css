@@ -1,4 +1,4 @@
-.single_product_listing{
+.product-box{
 	display: flex;
 	flex-direction: row;
 }
@@ -33,30 +33,24 @@
 	border-bottom: 1px solid black;
 }
 
-#product_r1{
+.product_r1, .product_r4{
 	display: flex;
 	/*background-color: purple;*/
 	border-bottom: 1px solid black;
 }
 
-#product_r2{
+.product_r2{
 	display: flex;
 }
 
-#star1, #star2{
+.star{
 	flex: 2 1 10%;
 	/*background-color: orange;*/
 	margin: 1em 7em;
 	text-align: center;
 }
 
-#reviewer1{
-	flex: 2 1 90%;
-	/*border: 3px solid yellow;*/
-	margin-right: 5em;
-}
-
-#reviewer2{
+.reviewer{
 	flex: 2 1 90%;
 	/*border: 3px solid yellow;*/
 	margin-right: 5em;
@@ -82,9 +76,33 @@
 
 /*---- REVIEW PAGE --*/
 
-#product_r3{
+.product_r3{
 	display: flex;
 	/*background-color: purple;*/
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
+}
+
+
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 50em) {
+	.product-box{
+		flex-direction: column;
+	}
+
+	#product_info{
+		margin-left: 7.5em;
+	}
+
+	#single_product_addcart_button{
+		margin-top: 1em;
+		margin-left: 4em;
+	}
+
+	.reviewer{
+		margin-left: 5em;
+	}
+
 }

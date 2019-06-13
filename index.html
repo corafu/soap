@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/homepage.css">
 </head>
 
 
@@ -19,6 +21,7 @@
     <a href="#interactive_elements" class="nav-main-item">Interactive Elements</a>
     <a href="#text_elements" class="nav-main-item">Text Elements</a>
     <a href="#combined_elements" class="nav-main-item">Combined Elements</a>
+    <a href="homepage.html" class="nav-main-item">Our Website</a>
     <a href="wireframes.html" class="nav-main-item">Wireframes</a>
     <a href="sitemap.html" class="nav-main-item">Site Map</a>
     <a href="citations.html" class="nav-main-item">Citations</a>
@@ -33,13 +36,13 @@
       <h2 class="main-heading">Navigation Button</h2>
 
       <h3>CSS selector:</h3>
-      <p>.button-nav</p>
+      <p>#home_nav_bar2_item2</p>
 
       <h3>Sample code:</h3>
-      <code>&lt;a class="button-nav" href="#"&gt;nav element&lt;/a&gt;</code>
+      <code>&lt;a href"shop_all.html&gt;&lt;div id="home_nav_bar_item2" class="style_nav_button"&gt;shop&lt;/div&gt;&lt;/a&gt;</code>
 
       <h3>Rendered element:</h3>
-      <a class="button-nav" href="#">nav element</a>
+      <a href="shop_all.html"><div id="home_nav_bar2_item2" class="style_nav_button">shop</div></a>
 
     </section>
 
@@ -67,16 +70,16 @@
       <h2 class="main-heading">Submit/Reset Buttons</h2>
 
       <h3>CSS selector:</h3>
-      <p>.button</p>
+      <p>.soap_button</p>
 
       <h3>Sample code:</h3>
-      <code>&lt;a class="button" href="#"&gt;submit&lt;/a&gt;</code>
+      <code>&lt;a class="soap_button" href="#"&gt;submit&lt;/a&gt;</code>
       <br>
-      <code>&lt;a class="button" href="#"&gt;reset&lt;/a&gt;</code>
+      <code>&lt;a class="soap_button" href="#"&gt;reset&lt;/a&gt;</code>
 
       <h3>Rendered element:</h3>
-      <a class="button" href="#">submit</a>
-      <a class="button" href="#">reset</a>
+      <a class="soap_button" id="style_button" href="#">submit</a>
+      <a class="soap_button" href="#">reset</a>
 
     </section>
 
@@ -231,20 +234,24 @@
 
 
       <h3>CSS selector:</h3>
-      <p>.button-main-nav</p>
+      <p>.home_nav_bar2</p>
 
       <h3>Sample code:</h3>
-      <code>&lt;a class="button-main-nav" href="#"&gt;shop&lt;/a&gt;</code>
-      <br>
-      <code>&lt;a class="button-main-nav" href="#"&gt;about us&lt;/a&gt;</code>
+      <code>
+        &lt;div class="home_nav_bar2"&gt;<br>
+        &lt;div id="home_nav_bar2_item"&gt;about us&lt;/div&gt;<br>
+        &lt;a href="shop_all.html"&gt;&lt;div id="home_nav_bar2_item2"&gt;shop&lt;/div&gt;&lt;/a&gt;<br>
+        &lt;/div&gt;
+      </code>
 
 
       <h3>Rendered element:</h3>
-      <a class="button-main-nav" href="#">shop</a>
-      <a class="button-main-nav" href="#">about us</a>
+      <div class="home_nav_bar2">
+        <div id="home_nav_bar2_item">about us</div>
+        <a href="shop_all.html"><div id="home_nav_bar2_item2">shop</div></a>
+      </div>
       
     </section>
-
 
     <section>
       <h2 class="main-heading">Product Listing</h2>
@@ -255,16 +262,26 @@
       <h3>Sample code:</h3>
       <code>
         &lt;div class="product-box"&gt;<br>
-        &lt;div class="product-box-half" id="product-box-left"&gt;<br>
-        &lt;div id="product-box-1"&gt;&lt;img src="soap1.jpg" id="charcoal-soap" width="60%" height="60%"&gt;&lt;/div&gt;<br>
-        &lt;/div&gt;<br>
+        &lt;div id="product_image"&gt;<br>
+        &lt;img src="soap1.jpg" width="65%">&lt;/div&gt;<br>
 
-        &lt; class="product-box-half" id="product-box-right"&gt;<br>
-        &lt;div id="product-box-2&gt;&lt;h2&gt;charcoal soap&lt;/h2&gt;&lt;/div&gt;<br>
-        &lt;div id="product-box-3&gt;&lt;p id="review-stars"&gt;★★★★☆&lt;/p&gt;&lt;/div&gt;<br>
-        &lt;div id="product-box-4&gt;&lt;h3&gt;$9.00&lt;/h3&gt;&lt;/div&gt;<br>
-        &lt;div id="product-box-5&gt;&lt;p id="bodytext"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in finibus sem, vitae convallis metus. Curabitur et nunc purus. Integer eleifend ipsum nec hendrerit ornare. Phasellus eros sem, vestibulum vitae orci sit amet, dictum dictum sem. Proin eget lacus id ante mattis vulputate. In ac imperdiet ligula. Phasellus ut auctor massa. Quisque tempus iaculis eleifend. Donec tempor pretium mi nec maximus.&lt;/p&gt;&lt;/div&gt;<br>
-        &lt;div id="product-box-6&gt;&lt;button class="button"&gt;add to cart&lt;/button&gt;&lt;/div&gt;<br>
+        &lt;div id="product_image"&gt;<br>
+        &lt;h3&gt;soap 1&lt;/h3&gt;<br>
+        &lt;p id="soap_price"&gt;$$$$&lt;/p&gt;<br>
+        &lt;p id="soap_rating"&gt;★★★★☆&lt;/p&gt;<br>
+        &lt;p id="soap_description"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta justo eget mi iaculis, at consequat mauris bibendum. Praesent eget sapien lacinia, suscipit mi accumsan, varius ligula. Mauris ut consectetur nunc, in iaculis turpis. Curabitur ultrices nunc diam, vel posuere ante consequat in.&lt;/p&gt;<br>
+        &lt;h5&gt;ingredients&lt;/h5&gt;<br>
+        &lt;p&gt;<br>
+        &lt;ul class="bullet-list"&gt;<br>
+        &lt;li&gt;ingredient&lt;/li&gt;<br>
+        &lt;li&gt;ingredient&lt;/li&gt;<br>
+        &lt;li&gt;ingredient&lt;/li&gt;<br>
+        &lt;li&gt;ingredient&lt;/li&gt;<br>
+        &lt;/ul&gt;<br>
+        &lt;p&gt;<br>
+        &lt;div&gt;<br>
+        &lt;button class="soap_button"&gt;add to cart&lt;/button&gt;<br>
+        &lt;/div&gt;<br>
         &lt;/div&gt;<br>
         &lt;/div&gt;
       </code>
@@ -272,17 +289,30 @@
 
       <h3>Rendered element:</h3>
       <div class="product-box">
-
-        <div class="product-box-half" id="product-box-left">
-          <div id="product-box-1"><img src="soap1.jpg" id="charcoal-soap" width="60%" height="60%"></div>
+        <div id="product_image">
+          <img src="soap1.jpg" width="65%">
         </div>
 
-        <div class="product-box-half" id="product-box-right">
-          <div id="product-box-2"><h2>charcoal soap</h2></div>
-          <div id="product-box-3"><p id="review-stars">★★★★☆</p></div>
-          <div id="product-box-4"><h3>$9.00</h3></div>
-          <div id="product-box-5"><p id="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in finibus sem, vitae convallis metus. Curabitur et nunc purus. Integer eleifend ipsum nec hendrerit ornare. Phasellus eros sem, vestibulum vitae orci sit amet, dictum dictum sem. Proin eget lacus id ante mattis vulputate. In ac imperdiet ligula. Phasellus ut auctor massa. Quisque tempus iaculis eleifend. Donec tempor pretium mi nec maximus.</p></div>
-          <div id="product-box-6"><button class="button">add to cart</button></div>
+        <div id="product_info">
+          <h3>soap 1</h3>
+          <p id="soap_price">$$$$</p>
+          <p id="soap_rating">★★★★☆</p>
+          <p id="soap_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus porta justo eget mi iaculis, at consequat mauris bibendum. Praesent eget sapien lacinia, suscipit mi accumsan, varius ligula. Mauris ut consectetur nunc, in iaculis turpis. Curabitur ultrices nunc diam, vel posuere ante consequat in.</p>
+
+          <h5>ingredients</h5>
+          <p>
+            <ul class="bullet-list">
+              <li>ingredient</li>
+              <li>ingredient</li>
+              <li>ingredient</li>
+              <li>ingredient</li>
+            </ul>
+          </p>
+
+          <div>
+            <button class="soap_button">add to cart</button>
+          </div>
+
         </div>
 
       </div>
@@ -309,11 +339,11 @@
 
       <h3>Rendered element:</h3>
 
-        <div class="grid-structure">
-            <div id="grid-structure-1"><img src="img/grid 1.png" width="90%"></div>
-            <div id="grid-structure-2"><img src="img/grid 2.png" width="90%"></div>
-            <div id="grid-structure-3"><img src="img/grid 3.png" width="90%"></div>
-        </div>
+      <div class="grid-structure">
+        <div id="grid-structure-1"><img src="img/grid 1.png" width="90%"></div>
+        <div id="grid-structure-2"><img src="img/grid 2.png" width="90%"></div>
+        <div id="grid-structure-3"><img src="img/grid 3.png" width="90%"></div>
+      </div>
 
 
 
