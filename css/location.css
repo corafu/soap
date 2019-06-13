@@ -1,0 +1,48 @@
+.image{
+background-color: rgba(255,204, 153, .9);
+text-align: center;
+padding: 8em;
+}
+
+.image1{
+background-color: rgb(252, 239, 227);
+text-align: center;
+padding: 12em;
+width: 50%;
+}
+
+.image2{
+background-color: rgb(252, 239, 227);
+text-align: center;
+padding: 12em;
+width: 50%
+}
+
+.content1 p{
+  font-weight: normal;
+  font-family: arial;
+}
+
+.content1{
+	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-top: 5em;
+  	 padding-bottom: 5em;
+}
+
+.content2 p{
+  font-weight: normal;
+  font-family: arial;
+}
+
+.content2{
+	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-top: 5em;
+  	 padding-bottom: 5em;
+}
+
+
+#philosophy{
+	padding-bottom: 2em;
+}
