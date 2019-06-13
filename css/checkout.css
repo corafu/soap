@@ -105,3 +105,8 @@ margin:0em 3em 0em 47.3em;
 #checkout_line3{
 	border-top:1px solid darkgray; 
 }
+
+.review_label{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
