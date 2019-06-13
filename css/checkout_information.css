@@ -69,6 +69,9 @@
     padding: 5px;
     }
 
+.contact_information{
+	display: grid;
+}
 
   /* Styling for Confirm Button */
   .button{
