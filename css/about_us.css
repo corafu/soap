@@ -1,0 +1,21 @@
+.image{
+background-color: rgba(255,204, 153, .9);
+text-align: center;
+padding: 8em;
+}
+
+.content p{
+  font-weight: normal;
+  font-family: arial;
+}
+
+.content{
+	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-top: 5em;
+  	 padding-bottom: 5em;
+}
+
+#philosophy{
+	padding-bottom: 2em;
+}
