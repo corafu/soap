@@ -17,21 +17,21 @@
 }
 
 #checkout_label1{
-	/*background-color: blue;*/
-flex: 5 1 20%;
-margin:0em 3em 0em 47.3em;
+	background-color: blue;*/
+	flex: 5 1 20%;
+	margin:0em 3em 0em 55em;
 }
 
 #checkout_label2{
-	/*background-color: orange;*/
+	background-color: orange;*/
 	flex: 5 1 20%;
-	margin:0em 3em 0em 5em;
+	margin:0em 3em 0em 2.5em;
 }
 
 #checkout_label3{
-	/*background-color: purple;*/
+	background-color: purple;*/
 	flex: 5 1 20%;
-	margin:0em 5em 0em 3em;
+	margin:0em 5em 0em 2em;
 }
 
 .checkout_product{
@@ -41,7 +41,7 @@ margin:0em 3em 0em 47.3em;
 }
 
 #checkout_product1_pic, #checkout_product2_pic {
-	/*background-color: red;*/
+	background-color: red;*/
 	flex: 2 1 25%;
 	margin-left: 1.3em;
 	justify-content: center;
@@ -50,7 +50,7 @@ margin:0em 3em 0em 47.3em;
 }
 
 .checkout_product_info{
-	/*background-color: orange;*/
+	background-color: orange;*/
 	flex: 2 1 75%;
 	display: flex;
 	flex-direction: column;
@@ -60,35 +60,36 @@ margin:0em 3em 0em 47.3em;
 	flex-direction: row;
 	display: flex;
 	text-align: center;
+	border: 3px solid green;
 }
 
 #checkout_product1_name{
 	/*margin-left: 3em;*/
 	flex: 1 1 100%;
-	/*background-color: pink;*/
+	background-color: pink;*/
 	margin-left: 4em;
 }
 
 #checkout_product2_name{
 	flex: 1 1 100%;
-	/*background-color: pink;*/
+	background-color: pink;*/
 	margin-left: 4em;
 }
 
 .checkout_price{
-	/*background-color: purple;*/
+	background-color: purple;*/
 	flex: 3 1 33%;
 	margin:0em 0em 0em 25.2em;
 }
 
 .checkout_number{
-	/*background-color: green;*/
+	background-color: green;*/
 	flex: 3 1 33%;
 	margin:0em 3em 0em 6.8em;
 }
 
 .checkout_total{
-	/*background-color: yellow;*/
+	background-color: yellow;*/
 	flex: 3 1 33%;
 	margin:0em 5em 6em 3em;
 }
@@ -115,24 +116,130 @@ margin:0em 3em 0em 47.3em;
 }
 
 /* Styling for Confirm Button */
-  .button{
-    display: inline-block;
-    padding: .8em 1.2em;
-    color: black;
-    background-color: rgb(247, 229, 228);
-    text-decoration: none;
-    -webkit-transition: background-color 0.2s ease-out;
-    transition: background-color 0.2s ease-out;
-    letter-spacing: .1em;
-    border: none;
-    font-family: Arial;
-    font-size: .9rem;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    }
+.button{
+	display: inline-block;
+	padding: .8em 1.2em;
+	color: black;
+	background-color: rgb(247, 229, 228);
+	text-decoration: none;
+	-webkit-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
+	letter-spacing: .1em;
+	border: none;
+	font-family: Arial;
+	font-size: .9rem;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 
-  .button:hover, .button:active, .button:focus{
-    color: white;
-    background-color: rgb(236, 190, 189);
-    text-decoration: none;
-  }
+.button:hover, .button:active, .button:focus{
+	color: white;
+	background-color: rgb(236, 190, 189);
+	text-decoration: none;
+}
+
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 75em) {
+	#checkout_label1{
+		margin-left: 50.5em;
+	}
+
+	#checkout_label2{
+		margin-left:2.5em;
+	}
+
+	#checkout_label3{
+		margin-left: 1.5em;
+	}
+}
+
+@media (max-width: 70em) {
+	#checkout_label1{
+		margin-left: 40.5em;
+	}
+
+	#checkout_label2{
+		margin-left:2.5em;
+	}
+
+	#checkout_label3{
+		margin-left: 1.5em;
+	}
+}
+
+@media (max-width: 60em) {
+	#checkout_label1{
+		margin-left: 30.5em;
+	}
+
+	#checkout_label2{
+		margin-left:2.5em;
+	}
+
+	#checkout_label3{
+		margin-left: 1.5em;
+	}
+}
+
+@media (max-width: 50em) {
+	#checkout_label1{
+		margin-left: 20.5em;
+	}
+
+	#checkout_label2{
+		margin-left:2.5em;
+	}
+
+	#checkout_label3{
+		margin-left: 1.5em;
+	}
+}
+
+@media (max-width: 40em) {
+	#checkout_label1{
+		margin-left: 12.5em;
+	}
+
+	#checkout_label2{
+		margin-left:1em;
+	}
+
+	#checkout_label3{
+		margin-left: 1em;
+	}
+
+	#checkout_product1_pic, #checkout_product2_pic{
+		m
+	}
+
+	.checkout_product_list_info{
+		margin-left: 0em;
+	}
+
+	#checkout_product1_name, #checkout_product2_name{
+		flex: 2 1 70%;
+	}
+
+}
+
+
+.checkout_product_list_info{
+	flex-direction: row;
+	display: flex;
+	text-align: center;
+}
+
+#checkout_product1_name{
+	/*margin-left: 3em;*/
+	flex: 1 1 100%;
+	background-color: pink;*/
+	margin-left: 4em;
+}
+
+#checkout_product2_name{
+	flex: 1 1 100%;
+	background-color: pink;*/
+	margin-left: 4em;
+}

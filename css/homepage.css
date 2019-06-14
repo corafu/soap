@@ -414,8 +414,9 @@ a{
 
 @media (max-width: 78em){
 	#home_cart_icon{
-		margin-top: 1.3em;
-		margin-left: 29em;
+		/*margin-top: 1.3em;
+		margin-left: 29em;*/
+		float: right;
 	}
 }
 
@@ -444,8 +445,8 @@ a{
 	}
 
 	#home_cart_icon{
-		display: inline-block;
-		margin-left: 26em;
+		display: block;
+		float: right;
 	}
 
 	.footer_set1{
