@@ -5,19 +5,25 @@
   /* Styling for Text Input Field */
   #fname{
     display: block;
-    width: 60%; 
+    width: 80%; 
     padding: 5px;
   }
 
   #lname{
     display: block;
-    width: 60%; 
+    width: 80%; 
     padding: 5px;
   }
 
   #eaddress{
     display: block;
     width: 80%; 
+    padding: 5px;
+  }
+
+   #eaddress2{
+    display: block;
+    width: 100%; 
     padding: 5px;
   }
   
@@ -69,8 +75,17 @@
     padding: 5px;
     }
 
+   #inquiry{
+    display: block;
+    width: 100%; 
+    padding: 130px;
+  }
+ 
+
 .grid-container1{
 	display: flex;
+	justify-content: space-between;
+
 }
 
 #contact_information_item1 {
@@ -84,7 +99,8 @@
 }
 
 
-  /* Styling for Confirm Button */
+
+/* Styling for Confirm Button */
   .button{
     display: inline-block;
     padding: .8em 1.2em;
@@ -98,6 +114,7 @@
     font-family: Arial;
     font-size: .9rem;
     margin-top: 2em;
+    margin-bottom: 2em;
     }
 
   .button:hover, .button:active, .button:focus{
@@ -107,6 +124,34 @@
   }
 
   .content{
-  	 margin-left: 5rem;
-  	 margin-right: 5rem;
+  	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
   }
+
+  .email_phone{
+  	 margin-left: 3.5rem;
+  	 margin-right: 3.5rem;
+  	 padding-bottom: 1.5em;
+  }
+
+  /* Styling for contact us page */
+
+	.image{
+	background-color: rgba(255,204, 153, .9);
+	text-align: center;
+	padding: 8em;
+	}
+
+	.contact_information2{
+	 padding-bottom: 2em;
+	}
+
+	#email{
+    padding-bottom: 1.2em;
+    padding-top: 4em;
+	}
+
+	#phone{
+
+	}
+
