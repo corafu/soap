@@ -107,7 +107,7 @@ ul{
 .review_form_fields{
 	flex: 2 1 95%;
 	flex-direction: row;
-	background-color: red;*/
+	/*background-color: red;*/
 	display: flex;
 	display: block;
 }
@@ -115,7 +115,7 @@ ul{
 .first_name{
 	padding: 1em 0em;
 	flex: 2 1 50%;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	width: 30%;
 	display: flex;
 }
@@ -123,7 +123,7 @@ ul{
 .last_name{
 	padding: 1em 0em;
 	flex: 2 1 50%;
-	background-color: orange;
+	/*background-color: orange;*/
 	width: 30%;
 	display: flex;
 }
@@ -131,7 +131,7 @@ ul{
 .form_review{
 	padding: 1em 0em;
 	flex: 1 1 100%;
-	background-color: blue;
+	/*background-color: blue;*/
 	width: 30%;
 	display: flex;
 }
