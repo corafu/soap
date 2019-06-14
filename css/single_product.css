@@ -1,3 +1,8 @@
+ul{
+	padding: 0;
+	margin-left: 1em;
+}
+
 .product-box{
 	display: flex;
 	flex-direction: row;
@@ -46,14 +51,15 @@
 .star{
 	flex: 2 1 10%;
 	/*background-color: orange;*/
-	margin: 1em 7em;
+	margin: 1em 10em;
 	text-align: center;
 }
 
 .reviewer{
 	flex: 2 1 90%;
 	/*border: 3px solid yellow;*/
-	margin-right: 5em;
+	margin-right: 7.25em;
+	padding-bottom: .8em;
 }
 
 #product_r_more{
@@ -81,6 +87,57 @@
 	/*background-color: purple;*/
 	border-bottom: 1px solid black;
 	border-top: 1px solid black;
+}
+
+/*----------------------------------------------------------------------*/
+
+.review_new{
+	border-top: 1px solid black;
+	display: flex;
+	padding-top: 2em;
+}
+
+#star_blank{
+	flex: 2 1 10%;
+	/*background-color: orange;*/
+	margin: 1em 9.75em;
+	text-align: center;
+}
+
+.review_form_fields{
+	flex: 2 1 95%;
+	flex-direction: row;
+	background-color: red;*/
+	display: flex;
+	display: block;
+}
+
+.first_name{
+	padding: 1em 0em;
+	flex: 2 1 50%;
+	background-color: yellow;
+	width: 30%;
+	display: flex;
+}
+
+.last_name{
+	padding: 1em 0em;
+	flex: 2 1 50%;
+	background-color: orange;
+	width: 30%;
+	display: flex;
+}
+
+.form_review{
+	padding: 1em 0em;
+	flex: 1 1 100%;
+	background-color: blue;
+	width: 30%;
+	display: flex;
+}
+
+#review_submit_form{
+	margin-bottom: 3em;
 }
 
 
