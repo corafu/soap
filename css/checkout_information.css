@@ -24,14 +24,6 @@
   }
 
 
-/* contact_us page */
-   #eaddress2{
-    display: block;
-    width: 100%; 
-    padding: 5px;
-  }
-
-
  /* checkout_information - shipping address and billing information */
   #aline1{
     display: block;
@@ -83,12 +75,19 @@
     padding: 5px;
     }
 
+ /* contact_us - more information */
+  #eaddress2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
 
   #inquiry{
     display: block;
-    width: 100%; 
+    width: 90%; 
     padding: 130px;
   }
+
  
 /* Contact Information in checkout_information and contact_us page */
 .grid-container1{
@@ -211,22 +210,34 @@
   	 padding-bottom: 1.5em;
   }
 
+
   /* Styling for contact_us page */
 
-	.image{
-	background-color: rgba(255,204, 153, .9);
-	text-align: center;
-	padding: 8em;
-	}
+  .image{
+	 background-color: rgba(255,204, 153, .9);
+	 text-align: center;
+    padding: 8em;
+  }
 
-	.contact_information2{
-	 padding-bottom: 2em;
-	}
+  #email{
+     padding-bottom: 1.2em;
+     padding-top: 4em;
+  }
 
-	#email{
-    padding-bottom: 1.2em;
-    padding-top: 4em;
-	}
+  #contact_information_item2{
+	  padding: 1em 0em;
+ 	  flex: 2 1 100%;
+  }
+
+  .grid-container9{
+	 display: flex;
+	 justify-content: space-between;
+  }
+
+  #contact_information_item3{
+	  padding: 1em 0em;
+	  flex: 2 1 100%;
+  }
 
 	
 
