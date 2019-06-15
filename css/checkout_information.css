@@ -3,9 +3,11 @@
   }
 
   /* Styling for Text Input Field */
+
+  /* checkout_information - contact information */
   #fname{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
@@ -17,75 +19,81 @@
 
   #eaddress{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
+
+/* contact_us page */
    #eaddress2{
     display: block;
     width: 100%; 
     padding: 5px;
   }
-  
+
+
+ /* checkout_information - shipping address and billing information */
   #aline1{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
   #aline2{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
   #city{
     display: block;
-    width: 20%; 
+    width: 70%; 
     padding: 5px;
   }
 
   #pcode{
     display: block;
-    width: 20%; 
+    width: 70%; 
     padding: 5px;
   }
 
   #country{
     display: block;
-    width: 20%; 
+    width: 70%; 
     padding: 5px;
   }
 
+
+ /* checkout_information - payment information */
   #cnumber{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
  
   #edate{
     display: block;
-    width: 30%; 
+    width: 80%; 
     padding: 5px;
   }
 
   #cvv{
     display: block;
-    width: 30%; 
+    width: 80%; 
     padding: 5px;
     }
 
-   #inquiry{
+
+  #inquiry{
     display: block;
     width: 100%; 
     padding: 130px;
   }
  
-
+/* Contact Information in checkout_information and contact_us page */
 .grid-container1{
 	display: flex;
 	justify-content: space-between;
-
 }
 
 #contact_information_item1 {
@@ -93,12 +101,81 @@
 	flex: 2 1 50%;
 }
 
+.grid-container2{
+	display: flex;
+	justify-content: space-between;
+}
+
 #contact_information_item2 {
 	padding: 1em 0em;
-	flex: 2 1 50%;
+	flex: 2 1 100%;
 }
 
 
+
+/* Shipping Address */
+.grid-container3{
+	display: flex;
+	justify-content: space-between;
+}
+
+#shipping_address_item1 {
+	padding: 1em 0em;
+	flex: 2 1 100%;
+}
+
+.grid-container4{
+	display: flex;
+	justify-content: space-between;
+}
+
+#shipping_address_item2 {
+	padding: 1em 0em;
+	flex: 2 1 100%;
+}
+
+.grid-container5{
+	display: flex;
+	justify-content: space-between;
+}
+
+#shipping_address_item3 {
+	padding: 1em 0em;
+	flex: 2 1 33.33%;
+}
+
+/* Billing Information */
+.grid-container6{
+	display: flex;
+	justify-content: space-between;
+}
+
+ input[type=checkbox]{
+ 	 margin-top: .4rem;
+ 	 margin-bottom: 1rem;
+
+ }
+
+ /* Payment Information */
+.grid-container7{
+	display: flex;
+	justify-content: space-between;
+}
+
+#payment_information_item1{
+	padding: 1em 0em;
+	flex: 2 1 100%;
+}
+
+.grid-container8{
+	display: flex;
+	justify-content: space-between;
+}
+
+#payment_information_item2{
+	padding: 1em 0em;
+	flex: 2 1 50%;
+}
 
 /* Styling for Confirm Button */
   .button{
@@ -134,7 +211,7 @@
   	 padding-bottom: 1.5em;
   }
 
-  /* Styling for contact us page */
+  /* Styling for contact_us page */
 
 	.image{
 	background-color: rgba(255,204, 153, .9);
