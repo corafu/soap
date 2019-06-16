@@ -6,16 +6,12 @@ padding: 8em;
 
 .image1{
 background-color: rgb(252, 239, 227);
-text-align: center;
-padding: 12em;
 width: 50%;
 }
 
 .image2{
 background-color: rgb(252, 239, 227);
-text-align: center;
-padding: 12em;
-width: 50%
+width: 50%;
 }
 
 .content1 p{
