@@ -1,7 +1,14 @@
 .image{
-background-color: rgba(255,204, 153, .9);
+/*background-color: rgba(255,204, 153, .9);*/
 text-align: center;
-padding: 8em;
+}
+
+#locationbanner{
+  max-width: 100%;
+}
+
+.locationbannertext{
+  transform: translate(0%, -550%);
 }
 
 .image1{
@@ -22,7 +29,7 @@ width: 50%;
 .content1{
 	 margin-left: 3.5rem;
   	 margin-right: 3.5rem;
-  	 padding-top: 5em;
+  	 padding-top: 0em;
   	 padding-bottom: 5em;
 }
 

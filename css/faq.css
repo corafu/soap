@@ -1,8 +1,16 @@
 .image{
-background-color: rgba(255,204, 153, .9);
-text-align: center;
-padding: 8em;
+  /*background-color: rgba(255,204, 153, .9);*/
+  text-align: center;
 }
+
+.faqbannertext{
+  transform: translate(0%, -450%);
+}
+
+#faqbanner{
+  max-width: 100%;
+}
+
 
 .faq p{
   font-weight: normal;
@@ -10,10 +18,9 @@ padding: 8em;
 }
 
 .faq{
-	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
-  	 padding-top: 5em;
-  	 padding-bottom: 3em;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  padding-bottom: 3em;
 }
 
 #question1 {
@@ -35,9 +42,9 @@ padding: 8em;
 }
 
 .shipping{
-	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
-  	 padding-bottom: 5em;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  padding-bottom: 5em;
 }
 
 h4 {

@@ -1,7 +1,14 @@
 .image{
-background-color: rgba(255,204, 153, .9);
+/*background-color: rgba(255,204, 153, .9);*/
 text-align: center;
-padding: 8em;
+}
+
+.aboutusbannertext{
+	transform: translate(0%, -450%);
+}
+
+#aboutusbanner{
+	max-width:100%;
 }
 
 .content p{
@@ -12,7 +19,6 @@ padding: 8em;
 .content{
 	 margin-left: 3.5rem;
   	 margin-right: 3.5rem;
-  	 padding-top: 5em;
   	 padding-bottom: 5em;
 }
 

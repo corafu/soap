@@ -1,0 +1,16 @@
+#contactusbanner{
+	max-width: 100%;
+}
+
+.contactusbannertext{
+	transform: translate(0, -450%);
+}
+
+.image{
+	padding: 0em;
+	background-color: white;
+}
+
+#email{
+	padding-top: 0em;
+}

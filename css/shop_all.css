@@ -1,20 +1,16 @@
-#shop_all_banner{
+.shop_all_banner{
 	/*padding: 4.5em;*/
 	text-align: center;
 	font-weight: bold;
-	background-color: orange;
+	/*background-color: orange;*/
+}
+
+.shopbannertext{
+	transform: translate(0%, -450%);
 }
 
 #shopbanner{
-	z-index: -1000000;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	object-fit: cover;
-}
-
-#shopbannertext{
-	z-index: 100;
+	max-width:100%;
 }
 
 
