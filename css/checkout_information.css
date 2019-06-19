@@ -199,6 +199,11 @@
     text-decoration: none;
   }
 
+  .confirm_button{
+  	text-align: right;
+  	margin-right: 7.5em;
+  }
+
   .content{
   	 margin-left: 3.5rem;
   	 margin-right: 3.5rem;
