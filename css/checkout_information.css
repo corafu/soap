@@ -304,15 +304,20 @@
   flex-direction: column;
   }
 
+  #cnumber{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
    #edate{
     display: block;
-    width: 95%; 
+    width: 90%; 
     padding: 5px;
   }
 
   #cvv{
     display: block;
-    width: 95%; 
+    width: 90%; 
     padding: 5px;
     }
 
