@@ -317,16 +317,37 @@
     }
 
   .confirm_button{
-    text-align: right;
- 
+     text-align: right;
+    
   }
-  
+
 }
 
-@media (max-width: 75.5em) {
-  .confirm_button{
-      text-align: right;
-    
-    }
+@media (max-width: 1050px) {
+   .confirm_button{
+     text-align: right;
+     margin-right: 3em;
+  }
+ 
 }
+
+@media (max-width: 1024px) {
+   .confirm_button{
+     text-align: right;
+     margin-right: 3em;
+  }
+ 
+}
+
+@media (max-width: 800px) {
+   .confirm_button{
+     text-align: center;
+    
+  }
+ 
+}
+
+
+
+
 
