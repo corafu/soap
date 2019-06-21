@@ -71,11 +71,11 @@
 }
 
 
-.checkout_product2_name{
+#checkout_product2_name{
 	flex: 1 1 100%;
 	/*background-color: pink;*/
 	margin-left: 4em;
-	margin-top: 4em;
+	margin-top: 5em;
 }
 
 .checkout_price{

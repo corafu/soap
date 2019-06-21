@@ -13,13 +13,13 @@
 
   #lname{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
   #eaddress{
     display: block;
-    width: 90%; 
+    width: 95%; 
     padding: 5px;
   }
 
@@ -27,31 +27,31 @@
  /* checkout_information - shipping address and billing information */
   #aline1{
     display: block;
-    width: 90%; 
+    width: 95%; 
     padding: 5px;
   }
 
   #aline2{
     display: block;
-    width: 90%; 
+    width: 95%; 
     padding: 5px;
   }
 
   #city{
     display: block;
-    width: 70%; 
+    width: 85%; 
     padding: 5px;
   }
 
   #pcode{
     display: block;
-    width: 70%; 
+    width: 85%; 
     padding: 5px;
   }
 
   #country{
     display: block;
-    width: 70%; 
+    width: 85%; 
     padding: 5px;
   }
 
@@ -59,19 +59,19 @@
  /* checkout_information - payment information */
   #cnumber{
     display: block;
-    width: 90%; 
+    width: 95%; 
     padding: 5px;
   }
  
   #edate{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
   }
 
   #cvv{
     display: block;
-    width: 80%; 
+    width: 90%; 
     padding: 5px;
     }
 
@@ -201,12 +201,24 @@
 
   .confirm_button{
   	text-align: right;
-  	margin-right: 7.5em;
+  	margin-right: 4.3em;
   }
 
   .content{
-  	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
+  	 margin-left: 4rem; 
+     margin-top: 4rem;
+  }
+
+  .shipping_address{
+    margin-top: 3rem;
+  }
+
+  .billing_information{
+    margin-top: 3rem;
+  }
+
+  .payment_information{
+    margin-top: 3rem;
   }
 
   .email_phone{
@@ -214,6 +226,7 @@
   	 margin-right: 3.5rem;
   	 padding-bottom: 1.5em;
   }
+
 
 
   /* Styling for contact_us page */
@@ -244,5 +257,116 @@
 	  flex: 2 1 100%;
   }
 
-	
+/* Responsive Section */
+@media (max-width: 50em) {
+   .content{
+       margin-right: 2rem; 
+    }
+
+  .grid-container1{
+    display:flex;
+    flex-direction: column;
+
+  }
+
+  #eaddress{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+
+
+  .grid-container5{
+  display: flex;
+  flex-direction: column;
+  }
+
+  #aline1{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #aline2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #city{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #pcode{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #country{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+
+  .grid-container8{
+  display: flex;
+  flex-direction: column;
+  }
+
+  #cnumber{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+   #edate{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #cvv{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+    }
+
+  .confirm_button{
+     text-align: right;
+    
+  }
+
+}
+
+@media (max-width: 1050px) {
+   .confirm_button{
+     text-align: right;
+     margin-right: 3em;
+  }
+ 
+}
+
+@media (max-width: 1024px) {
+   .confirm_button{
+     text-align: right;
+     margin-right: 3em;
+  }
+ 
+}
+
+@media (max-width: 800px) {
+   .confirm_button{
+     text-align: center;
+    
+  }
+ 
+}
+
+
+
+
 
