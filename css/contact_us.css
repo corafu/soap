@@ -14,3 +14,30 @@
 #email{
 	padding-top: 0em;
 }
+
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 66em){
+	.contactusbannertext{
+		transform: translate(0%, -350%);
+	}
+}
+
+@media (max-width: 50em){
+	.contactusbannertext{
+		transform: translate(0%, -300%);
+	}
+}
+
+@media (max-width: 42em) {
+	.contactusbannertext{
+		transform: translate(0%, -275%);
+	}
+}
+
+@media (max-width: 36em) {
+	.contactusbannertext{
+		transform: translate(0%, -250%);
+	}
+}

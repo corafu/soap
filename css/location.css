@@ -1,6 +1,6 @@
 .image{
-/*background-color: rgba(255,204, 153, .9);*/
-text-align: center;
+  /*background-color: rgba(255,204, 153, .9);*/
+  text-align: center;
 }
 
 #locationbanner{
@@ -11,41 +11,133 @@ text-align: center;
   transform: translate(0%, -550%);
 }
 
-.image1{
-background-color: rgb(252, 239, 227);
-width: 50%;
-}
-
-.image2{
-background-color: rgb(252, 239, 227);
-width: 50%;
-}
-
-.content1 p{
-  font-weight: normal;
-  font-family: arial;
-}
 
 .content1{
-	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
-  	 padding-top: 0em;
-  	 padding-bottom: 5em;
-}
-
-.content2 p{
-  font-weight: normal;
-  font-family: arial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .content2{
-	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
-  	 padding-top: 5em;
-  	 padding-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
+
+.location1{
+  flex: 2 1 50%;
+  max-width: 100%;
+
+}
+
+.address1{
+  flex: 2 1 50%;
+  text-align: center;
+  padding-top: 8.5em;
+  
+}
+
+.location2{
+  flex: 2 1 50%;
+  max-width: 450%;
+}
+
+
+.address2{
+  flex: 2 1 50%;
+  text-align: center;
+  padding-top: 9em;
+  max-width: 100%;
+  
+}
+
 
 
 #philosophy{
 	padding-bottom: 2em;
+}
+
+
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 62em){
+  .locationbannertext{
+    transform: translate(0%,-425%);
+  }
+}
+
+@media (max-width: 58em){
+  .locationbannertext{
+    transform: translate(0%, -400%);
+  }
+}
+
+@media (max-width: 52em){
+  .locationbannertext{
+    transform: translate(0%, -400%);
+  }
+}
+
+@media (max-width: 50em){
+  .locationbannertext{
+    transform: translate(0%, -350%);
+  }
+}
+
+@media (max-width: 42em) {
+  .locationbannertext{
+    transform: translate(0%, -330%);
+  }
+}
+
+@media (max-width: 36em) {
+  .locationbannertext{
+    transform: translate(0%, -300%);
+  }
+}
+
+@media(max-width: 58em){
+  .address1{
+    padding-top: 5.5em;
+  }
+  .address2{
+    padding-top: 6em;
+  }
+}
+
+@media(max-width: 55em){
+  .content1 .content2{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .location1{
+    flex: 1 1 100%;
+    max-width: 99%;
+    order: 2;
+  }
+
+  .address1{
+    flex: 1 1 100%;
+    padding-bottom: 4em;
+    order: 2;
+
+  }
+
+  .location2{
+    flex: 1 1 100%;
+    order: 1;
+  }
+
+
+  .address2{
+    flex: 1 1 100%;
+    order: 2;
+    padding-bottom: 4.25em;
+
+  }
+
 }

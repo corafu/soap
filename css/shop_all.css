@@ -123,9 +123,30 @@
 
 /*---- RESPONSIVE STUFF ----*/
 
+@media (max-width: 66em){
+	.shopbannertext{
+		transform: translate(0%, -350%);
+	}
+}
+
+@media (max-width: 50em){
+	.shopbannertext{
+		transform: translate(0%, -300%);
+	}
+}
+
 @media (max-width: 42em) {
 	.shop_all_grid_r1, .shop_all_grid_r2, .shop_all_grid_r3{
 		flex-direction: column;
 		flex: 3 1 33%;
+	}
+	.shopbannertext{
+		transform: translate(0%, -275%);
+	}
+}
+
+@media (max-width: 36em) {
+	.shopbannertext{
+		transform: translate(0%, -250%);
 	}
 }

@@ -51,3 +51,30 @@ h4 {
  font-size: 1em;
 
 }
+
+
+/*---- RESPONSIVE STUFF ----*/
+
+@media (max-width: 66em){
+  .faqbannertext{
+    transform: translate(0%, -350%);
+  }
+}
+
+@media (max-width: 50em){
+  .faqbannertext{
+    transform: translate(0%, -300%);
+  }
+}
+
+@media (max-width: 42em) {
+  .faqbannertext{
+    transform: translate(0%, -275%);
+  }
+}
+
+@media (max-width: 36em) {
+  .faqbannertext{
+    transform: translate(0%, -250%);
+  }
+}
