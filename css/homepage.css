@@ -187,7 +187,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	/*background-color: green;*/
-	margin-right: 1.7em;
+	margin-right: 1.9em;
 	margin-left: 1.5em;
 	text-align: left; 
 }
@@ -232,7 +232,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	/*background-color: orange;*/
-	margin-right: 1.7em;
+	margin-right: 1.9em;
 	text-align: left;
 }
 
@@ -292,7 +292,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	/*background-color: purple;*/
-	margin-right: 1.7em;
+	margin-right: 1.9em;
 	text-align: left;
 }
 
@@ -367,7 +367,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	/*background-color: gray;*/
-	margin-right: 1.7em;
+	margin-right: 1.9em;
 	text-align: left;
 }
 
