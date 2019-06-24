@@ -95,7 +95,7 @@
 	justify-content: space-between;
 }
 
-#contact_information_item1 {
+.contact_information_item1 {
 	padding: 1em 0em;
 	flex: 2 1 50%;
 }
@@ -118,7 +118,7 @@
 	justify-content: space-between;
 }
 
-#shipping_address_item1 {
+.shipping_address_item1 {
 	padding: 1em 0em;
 	flex: 2 1 100%;
 }
@@ -128,7 +128,7 @@
 	justify-content: space-between;
 }
 
-#shipping_address_item2 {
+.shipping_address_item2 {
 	padding: 1em 0em;
 	flex: 2 1 100%;
 }
@@ -138,9 +138,9 @@
 	justify-content: space-between;
 }
 
-#shipping_address_item3 {
-	padding: 1em 0em;
-	flex: 2 1 33.33%;
+.shipping_address_item3 {
+	padding: 0em 0em;
+	flex: 3 1 33.3%;
 }
 
 /* Billing Information */
@@ -171,7 +171,7 @@
 	justify-content: space-between;
 }
 
-#payment_information_item2{
+.payment_information_item2{
 	padding: 1em 0em;
 	flex: 2 1 50%;
 }
@@ -293,6 +293,7 @@
     width: 90%; 
     padding: 5px;
   }
+
 
   #city{
     display: block;
