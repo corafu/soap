@@ -429,6 +429,7 @@ a{
 		/*margin-top: 1.3em;
 		margin-left: 29em;*/
 		float: right;
+		width: 8%;
 	}
 }
 
@@ -451,14 +452,19 @@ a{
 }
 
 @media (max-width: 42em) {
-	.home_nav_full, .home_nav_bar1{
+	.home_nav_full{
 		flex-wrap: wrap;
 		flex: 2 1 50%;
+	}
+
+	.home_box_1{
+		flex: 2 1 55%;
 	}
 
 	#home_cart_icon{
 		display: block;
 		float: right;
+		width: 12%;
 	}
 
 	.footer_set1{
@@ -495,6 +501,10 @@ a{
 	.soap_button{
 		transform: translate(23%,-110%);
 	}
+
+	#home_cart_icon{
+		width: 10%;
+	}
 }
 
 
@@ -514,16 +524,28 @@ a{
 	.soap_button{
 		transform: translate(27%,-120%);
 	}
+
+	#home_cart_icon{
+		width: 9.5%;
+	}
 }
 
 @media(max-width: 40em){
 	.soap_button{
 		transform: translate(29%,-130%);
 	}
+
+	#home_cart_icon{
+		width: 12%;
+	}
 }
 
 @media(max-width: 34em){
 	.soap_button{
 		transform: translate(35%, -200%);
+	}
+
+	#home_cart_icon{
+		width: 12%;
 	}
 }
