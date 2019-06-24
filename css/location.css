@@ -116,7 +116,6 @@
 
   .location1{
     flex: 1 1 100%;
-    max-width: 99%;
     order: 2;
   }
 
