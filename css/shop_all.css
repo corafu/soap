@@ -135,11 +135,14 @@
 	}
 }
 
-@media (max-width: 42em) {
+@media (max-width: 47em){
 	.shop_all_grid_r1, .shop_all_grid_r2, .shop_all_grid_r3{
 		flex-direction: column;
 		flex: 3 1 33%;
 	}
+}
+
+@media (max-width: 42em) {
 	.shopbannertext{
 		transform: translate(0%, -275%);
 	}
