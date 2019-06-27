@@ -79,6 +79,11 @@ ul{
 	color: rgb(236, 190, 189);
 }
 
+#single_product_addcart_button{
+	width: 26em;
+	text-align: center;
+}
+
 
 /*---- REVIEW PAGE --*/
 
