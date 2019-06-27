@@ -11,6 +11,7 @@
 	background-color: white;
 }
 
+/*
 #fname{
 	width: 80%;
 }
@@ -22,11 +23,23 @@
 #email{
 	padding-top: 0em;
 }
+*/
+
+.submit_button{
+	text-align: right;
+	margin-right: 70px;
+}
 
 
 /*---- RESPONSIVE STUFF ----*/
 
+
+
 @media (max-width: 50em){
+    .contactusbannertext{
+		transform: translate(0%, -300%);
+	}
+
 	#fname{
 		width: 90%;
 	}
@@ -34,18 +47,73 @@
 	#lname{
 		width: 90%;
 	}
+
+    #eaddress2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+    }
+
+    #inquiry{
+    display: block;
+    width: 90%; 
+    padding: 130px;
+    }
+
+    .submit_button{
+	text-align: center;
+	margin-right: 70px;
+    }
+
 }
+
+
 
 @media (max-width: 66em){
 	.contactusbannertext{
 		transform: translate(0%, -350%);
 	}
+	
+	#fname{
+		width: 86%;
+	}
+
+	#lname{
+		width: 86%;
+	}
+
+    #eaddress2{
+    display: block;
+    width: 93%; 
+    padding: 5px;
+    }
+    #inquiry{
+    display: block;
+    width: 93%; 
+    padding: 130px;
+    }
 }
 
-@media (max-width: 50em){
-	.contactusbannertext{
-		transform: translate(0%, -300%);
+@media (max-width: 75em){
+	#fname{
+		width: 88%;
 	}
+
+	#lname{
+		width: 88%;
+	}
+
+    #eaddress2{
+    display: block;
+    width: 94%; 
+    padding: 5px;
+    }
+    #inquiry{
+    display: block;
+    width: 94%; 
+    padding: 130px;
+    }
+
 }
 
 @media (max-width: 42em) {
