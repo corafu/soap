@@ -11,6 +11,10 @@
   transform: translate(0%, -550%);
 }
 
+.location_grid{
+  margin-top: -80px;
+}
+
 
 .content1{
   display: flex;
@@ -18,17 +22,9 @@
   flex-wrap: wrap;
 }
 
-.content2{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-
 .location1{
   flex: 2 1 50%;
   max-width: 100%;
-
 }
 
 .address1{
@@ -37,6 +33,16 @@
   padding-top: 8.5em;
   
 }
+
+
+.content2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: -4px;
+}
+
 
 .location2{
   flex: 2 1 50%;
