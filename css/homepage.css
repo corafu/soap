@@ -153,13 +153,18 @@ a{
 }
 
 #homepagehero{
+	/*
 	z-index: -10000000;
 	position: relative;
-	/*
+	*/
+	
+    /*
 	max-width: 100%;
 	*/
+	position: static;
+	left:0;
 	width: 100%;
-	margin-bottom: -5px;
+	margin-bottom: -20px;
 }
 
 .soap_button{
@@ -187,9 +192,23 @@ a{
 #shop_all_button{
 	/*margin-top: 7em;*/
 	z-index: 1000000;
+	/*
 	position:absolute;
+	*/
+	position: absolute;
+	
+
+	/*
+	bottom: 300px;
+	right: 50%;
+	*/
+	
+
+
+	
 	right:46.5%;
 	top:80%;
+	
 }
 
 /*-------hero image section done-----*/
