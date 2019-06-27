@@ -17,8 +17,8 @@ text-align: center;
 }
 
 .content{
-	 margin-left: 3.5rem;
-  	 margin-right: 3.5rem;
+	 margin-left: 9.8rem;
+  	 margin-right: 9.8rem;
   	 padding-bottom: 5em;
 }
 
@@ -39,16 +39,34 @@ text-align: center;
 	.aboutusbannertext{
 		transform: translate(0%, -300%);
 	}
+
+	.content{
+	 margin-left: 7rem;
+  	 margin-right: 7rem;
+  	 padding-bottom: 5em;
+	}
 }
 
 @media (max-width: 42em) {
 	.aboutusbannertext{
 		transform: translate(0%, -275%);
 	}
+
+	.content{
+	 margin-left: 6rem;
+  	 margin-right: 6rem;
+  	 padding-bottom: 5em;
+	}
 }
 
 @media (max-width: 36em) {
 	.aboutusbannertext{
 		transform: translate(0%, -250%);
+	}
+
+	.content{
+	 margin-left: 3rem;
+  	 margin-right: 3rem;
+  	 padding-bottom: 5em;
 	}
 }
