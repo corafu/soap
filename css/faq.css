@@ -52,6 +52,14 @@ h4 {
 
 }
 
+.ship_opt{
+  text-indent: 4.5em;
+}
+
+#missingitem{
+  border-top: 1px solid black;
+  margin-top: 3.5em;
+}
 
 /*---- RESPONSIVE STUFF ----*/
 
