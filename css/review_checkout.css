@@ -6,9 +6,9 @@
 }
 
 #review_checkout_product_pic {
-	background-color: red;
+	/*background-color: red;*/
 	flex: 2 1 25%;
-	margin-left: 1.3em;*/
+	margin-left: 1.3em;
 	padding: 1em 0em;
 	margin-right: 10em;
 }
@@ -24,20 +24,20 @@
 	flex-direction: row;
 	display: flex;
 	text-align: center;
-	border: 3px solid green;*/
+	/*border: 3px solid green;*/
 }
 
 #review_checkout_product1_name{
 	/*margin-left: 3em;*/
 	flex: 1 1 100%;
-	background-color: blue;*/
+	/*background-color: blue;*/
 	margin-left: 4em;
 	float: left;
 }
 
 #review_checkout_product2_name{
 	flex: 1 1 100%;
-	background-color: blue;*/
+	/*background-color: blue;*/
 	margin-left: 4em;
 }
 
