@@ -231,12 +231,18 @@
 
   .confirm_button{
   	text-align: right;
-  	margin-right: 3.5em;
+    /*
+  	margin-right: 3.6em;
+    */
+    margin-right: 67px;
+
   }
 
   .content{
   	 margin-left: 4rem; 
      margin-top: 4rem;
+     margin-right: 10px;
+
   }
 
   .shipping_address{
@@ -287,11 +293,15 @@
 	  flex: 2 1 100%;
   }
 
+
 /* Responsive Section */
 @media (max-width: 50em) {
+  
    .content{
-       margin-right: 2rem; 
+       margin-right: 0rem; 
+
     }
+    
 
   .grid-container1{
     display:flex;
@@ -344,6 +354,39 @@
   }
 
 
+  #aline3{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #aline4{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+
+  #city2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #pcode2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #country2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+
+
   .grid-container8{
   display: flex;
   flex-direction: column;
@@ -364,19 +407,49 @@
     display: block;
     width: 90%; 
     padding: 5px;
-    }
+  }
 
   .confirm_button{
      text-align: right;
+  
     
   }
 
 }
 
+@media (max-width: 70em) {
+   .contact_information{
+       margin-right: 1rem; 
+   }
+
+    .shipping_address{
+      margin-right: 1rem; 
+    }
+
+    .billing_information{
+      margin-right: 1rem; 
+    }
+
+   .payment_information{
+       margin-right: 1rem; 
+
+    }
+}
+
+@media (max-width: 30em) {
+   .content{
+       margin-right: 1rem; 
+
+    }
+}
+
 @media (max-width: 1050px) {
    .confirm_button{
      text-align: right;
+     /*
      margin-right: 3em;
+     */
+     
   }
  
 }
@@ -384,7 +457,9 @@
 @media (max-width: 1024px) {
    .confirm_button{
      text-align: right;
+     /*
      margin-right: 3em;
+     */
   }
  
 }
