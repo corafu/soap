@@ -24,7 +24,7 @@
   }
 
 
- /* checkout_information - shipping address and billing information */
+ /* checkout_information - shipping address */
   #aline1{
     display: block;
     width: 95%; 
@@ -55,6 +55,36 @@
     padding: 5px;
   }
 
+ /* checkout_information - billing information */
+   #aline3{
+      display: block;
+      width: 95%; 
+      padding: 5px;
+    }
+
+    #aline4{
+      display: block;
+      width: 95%; 
+      padding: 5px;
+    }
+
+    #city2{
+      display: block;
+      width: 85%; 
+      padding: 5px;
+    }
+
+    #pcode2{
+      display: block;
+      width: 85%; 
+      padding: 5px;
+    }
+
+    #country2{
+      display: block;
+      width: 85%; 
+      padding: 5px;
+    }
 
  /* checkout_information - payment information */
   #cnumber{
@@ -150,7 +180,7 @@
 }
 
  input[type=checkbox]{
- 	 margin-top: .4rem;
+ 	 margin-top: 1rem;
  	 margin-bottom: 1rem;
 
  }
