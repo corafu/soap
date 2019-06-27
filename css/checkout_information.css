@@ -106,6 +106,18 @@
     }
 
  /* contact_us - more information */
+  #fname2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #lname2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
   #eaddress2{
     display: block;
     width: 95%; 
@@ -119,7 +131,7 @@
   }
 
  
-/* Contact Information in checkout_information and contact_us page */
+/* Contact Information in checkout_information */
 .grid-container1{
 	display: flex;
 	justify-content: space-between;
@@ -139,7 +151,6 @@
 	padding: 1em 0em;
 	flex: 2 1 100%;
 }
-
 
 
 /* Shipping Address */
@@ -278,10 +289,12 @@
      padding-top: 4em;
   }
 
+/*
   #contact_information_item2{
 	  padding: 1em 0em;
  	  flex: 2 1 100%;
   }
+*/
 
   .grid-container9{
 	 display: flex;
@@ -292,6 +305,28 @@
 	  padding: 1em 0em;
 	  flex: 2 1 100%;
   }
+
+/* Contact Information in contact_us page */
+.grid-container11{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_information_item4 {
+  padding: 1em 0em;
+  flex: 2 1 50%;
+}
+
+.grid-container12{
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact_information_item5 {
+  padding: 1em 0em;
+  flex: 2 1 100%;
+}
+
 
 
 /* Responsive Section */

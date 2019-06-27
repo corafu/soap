@@ -11,6 +11,10 @@
 	background-color: white;
 }
 
+.contact_information2{
+	margin-right: 10px;
+}
+
 /*
 #fname{
 	width: 80%;
@@ -40,23 +44,42 @@
 		transform: translate(0%, -300%);
 	}
 
-	#fname{
-		width: 90%;
+	.grid-container11{
+    display:flex;
+    flex-direction: column;
+
+  	}
+
+	.contact_information_item4 {
+	  padding: 1em 0em;
+	  flex: 2 1 100%;
 	}
 
-	#lname{
-		width: 90%;
+	#fname2{
+	display: block;
+	width: 94%;
+	padding: 5px;
+
+	}
+
+	#lname2{
+	display: block;
+	width: 94%;
+	padding: 5px;
 	}
 
     #eaddress2{
     display: block;
-    width: 90%; 
+    width: 94%; 
     padding: 5px;
     }
 
     #inquiry{
     display: block;
+    /*
     width: 90%; 
+    */
+     width: 94%; 
     padding: 130px;
     }
 
@@ -74,13 +97,18 @@
 		transform: translate(0%, -350%);
 	}
 	
-	#fname{
+/*
+	#fname2{
+		display: block;
 		width: 86%;
 	}
 
-	#lname{
+	#lname2{
+		display: block;
 		width: 86%;
 	}
+	
+	
 
     #eaddress2{
     display: block;
@@ -92,16 +120,25 @@
     width: 93%; 
     padding: 130px;
     }
+    */
 }
 
 @media (max-width: 75em){
-	#fname{
-		width: 88%;
+
+
+/*
+	#fname2{
+		display: block;
+		width: 94%;
 	}
 
-	#lname{
-		width: 88%;
+
+	#lname2{
+		display: block;
+		width: 94%;
 	}
+
+
 
     #eaddress2{
     display: block;
@@ -113,17 +150,32 @@
     width: 94%; 
     padding: 130px;
     }
+    */
 
+}
+
+@media (max-width: 48em) {
+	.contact_information2{
+		margin-right: 27px;
+	}
 }
 
 @media (max-width: 42em) {
 	.contactusbannertext{
 		transform: translate(0%, -275%);
 	}
+
+	.contact_information2{
+		margin-right: 25px;
+	}
 }
 
 @media (max-width: 36em) {
 	.contactusbannertext{
 		transform: translate(0%, -250%);
+	}
+
+	.contact_information2{
+		margin-right: 25px;
 	}
 }
