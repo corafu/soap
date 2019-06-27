@@ -174,9 +174,6 @@ a{
 	text-decoration: none;
 
 	/*----interaction part----*/
-	/*
-	-webkit-transition: background-color 0.2s ease-out;
-	*/
 	transition: background-color 0.2s ease-out;
 	letter-spacing: .05em;
 	border: none;
@@ -195,7 +192,7 @@ a{
 	position:absolute;
 
 	right:46.5%;
-	top:80%;
+	top:50%;
 	/*
 	bottom: 300px;
 	right: 50%;
@@ -673,5 +670,18 @@ a{
 	.footer_set4{
 		flex: 1 1 25%;
 	}
+
+	#shop_all_button{
+	/*margin-top: 7em;*/
+	z-index: 1000000;
+	position:absolute;
+
+	right:46.5%;
+	top:0%;
+	/*
+	bottom: 300px;
+	right: 50%;
+	*/
+}
 
 }

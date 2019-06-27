@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
+h4{
+  font-family: Lato, Arial, sans-serif;
+  font-weight: bold;
+}
+
 body {
   font-family: Lato, georgia, sans-serif;
   padding: 2rem;
