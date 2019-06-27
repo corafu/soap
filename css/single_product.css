@@ -15,7 +15,7 @@ ul{
 	padding: 0em 0em 0em 0em;
 	justify-content: center;
 	text-align: center;
-	max-width: 10%;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -168,6 +168,11 @@ ul{
 
 	.reviewer{
 		margin-left: 5em;
+	}
+
+	#product_image{
+    width: 50%;
+	height: auto;
 	}
 
 }
