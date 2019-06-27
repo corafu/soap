@@ -1,3 +1,11 @@
+header{
+	padding-top: 0.6em;
+	padding-bottom: 0.7em;
+	font-family: Lato,arial;
+	font-size: 2em;
+	font-weight: bold;
+}
+
 body{
 	font-family: arial, georgia, sans serif;
 	margin: 0em;
