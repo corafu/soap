@@ -96,6 +96,10 @@
 	.contactusbannertext{
 		transform: translate(0%, -350%);
 	}
+
+	.contact_information2{
+		margin-right: 20px;
+	}
 	
 /*
 	#fname2{
@@ -123,8 +127,11 @@
     */
 }
 
-@media (max-width: 75em){
 
+@media (max-width: 75em){
+.contact_information2{
+		margin-right: 15px;
+}
 
 /*
 	#fname2{
