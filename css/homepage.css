@@ -192,23 +192,14 @@ a{
 #shop_all_button{
 	/*margin-top: 7em;*/
 	z-index: 1000000;
-	/*
 	position:absolute;
-	*/
-	position: absolute;
-	
 
+	right:46.5%;
+	top:80%;
 	/*
 	bottom: 300px;
 	right: 50%;
 	*/
-	
-
-
-	
-	right:46.5%;
-	top:80%;
-	
 }
 
 /*-------hero image section done-----*/
@@ -219,7 +210,7 @@ a{
 	background-color: rgb(247, 229, 228);
 	flex: 1 1 100%;
 	padding: 1.5em;
-	margin-top: -5px;
+	margin-top: -2px;
 	/*border: 5px solid blue;*/
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
