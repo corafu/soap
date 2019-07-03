@@ -515,6 +515,7 @@ a{
 	}
 }
 
+
 @media (max-width: 54em){
 	.soap_button{
 		transform: translate(23%,-110%);
@@ -540,7 +541,7 @@ a{
 
 @media(max-width: 45em){
 	.soap_button{
-		transform: translate(27%,-120%);
+		transform: translate(27%,-30%);
 	}
 
 	#home_cart_icon{
@@ -586,14 +587,18 @@ a{
 		position:absolute;
 
 		right:46.5%;
-		top:70%;
+		top:55%;
 	}
 }
 
 @media(max-width: 40em){
 	.soap_button{
+		/*
 		transform: translate(29%,-130%);
+		*/
+		transform: translate(28%,-150%);
 	}
+
 
 	#home_cart_icon{
 		width: 32px;
@@ -601,12 +606,23 @@ a{
 }
 
 @media(max-width: 34em){
+	/*
 	.soap_button{
 		transform: translate(35%, -200%);
 	}
+	*/
 
 	#home_cart_icon{
 		width: 32px;
+	}
+
+	#shop_all_button{
+		/*margin-top: 7em;*/
+		z-index: 1000000;
+		position:absolute;
+
+		right:46.5%;
+		top:70%;
 	}
 }
 
@@ -641,6 +657,15 @@ a{
 
 	.footer_set4{
 		flex: 1 1 25%;
+	}
+
+	#shop_all_button{
+		/*margin-top: 7em;*/
+		z-index: 1000000;
+		position:absolute;
+
+		right:46.5%;
+		top:70%;
 	}
 
 }
@@ -679,8 +704,13 @@ a{
 		flex: 1 1 25%;
 	}
 
+
 	#shop_all_button{
 		/*margin-top: 7em;*/
 		z-index: 1000000;
+		position:absolute;
+
+		right:46.5%;
+		top:70%;
 	}
 }
