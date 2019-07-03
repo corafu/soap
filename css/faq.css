@@ -18,8 +18,12 @@
 }
 
 .faq{
+  /*
   margin-left: 3.5rem;
   margin-right: 3.5rem;
+  */
+  margin-left: 9.8rem;
+  margin-right: 9.8rem;
   padding-bottom: 3em;
 }
 
@@ -42,18 +46,29 @@
 }
 
 .shipping{
+  /*
   margin-left: 3.5rem;
   margin-right: 3.5rem;
+  */
+  
+  margin-left: 9.8rem;
+  margin-right: 9.8rem;
+  
   padding-bottom: 5em;
 }
 
 h4 {
  font-size: 1em;
+ font-style: italic;
 
 }
 
 .ship_opt{
+  /*
   text-indent: 4.5em;
+  */
+  margin-left: 4.8em;
+  padding-bottom: 0.8em;
 }
 
 #missingitem{
@@ -67,22 +82,78 @@ h4 {
   .faqbannertext{
     transform: translate(0%, -350%);
   }
+  
 }
 
-@media (max-width: 50em){
+@media (max-width: 65em){
+  .ship_opt{
+  margin-left: 2.5em;
+  }
+}
+
+@media (max-width: 60em){
+  .ship_opt{
+  margin-left: 2.5em;
+  }
+}
+
+@media (max-width: 51em){
   .faqbannertext{
     transform: translate(0%, -300%);
   }
+
+  .faq{
+   margin-left: 7rem;
+   margin-right: 7rem;
+  }
+
+  .shipping{
+   margin-left: 7rem;
+   margin-right: 7rem;
+  }
+
+  .ship_opt{
+  margin-left: 2.5em;
+  }
+
 }
 
 @media (max-width: 42em) {
   .faqbannertext{
     transform: translate(0%, -275%);
   }
+
+   .faq{
+   margin-left: 6rem;
+   margin-right: 6rem;
+  }
+
+  .shipping{
+   margin-left: 6rem;
+   margin-right: 6rem;
+  }
+
+  .ship_opt{
+  margin-left: 2.5em;
+  }
 }
 
 @media (max-width: 36em) {
   .faqbannertext{
     transform: translate(0%, -250%);
+  }
+
+   .faq{
+   margin-left: 3rem;
+   margin-right: 3rem;
+  }
+
+  .shipping{
+   margin-left: 3rem;
+   margin-right: 3rem;
+  }
+
+  .ship_opt{
+  margin-left: 2.5em;
   }
 }
