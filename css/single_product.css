@@ -17,6 +17,7 @@ ul{
 	/*background-color: orange;*/
 	flex: 2 1 60%;
 	margin-top: 3em;
+	margin-left: 1em;
 	padding: 0em 0em 0em 0em;
 	justify-content: center;
 	text-align: center;
@@ -373,4 +374,9 @@ img{
     .review_form_fields{
 		margin-left: 7em;
 	}
+
+	#product_image{
+	/*background-color: orange;*/
+	margin-right: 1em;
+}
 }
