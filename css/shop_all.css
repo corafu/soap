@@ -125,25 +125,42 @@ h4{
 	text-align: center;
 }
 
+.image_shopgd{
+	width: 300px;
+	height: auto;
+}
+
 
 /*---- RESPONSIVE STUFF ----*/
 
 @media (max-width: 74em){
+	
 	.image_shopgd{
 		width: 80%;
 	}
+	
+
 }
 
 @media (max-width: 66em){
 	.shopbannertext{
 		transform: translate(0%, -350%);
 	}
+
+	
 }
 
 @media (max-width: 50em){
 	.shopbannertext{
 		transform: translate(0%, -300%);
 	}
+
+
+	.image_shopgd{
+		width: 50%;
+		height: auto;
+	}
+	
 }
 
 @media (max-width: 53em){
@@ -151,6 +168,7 @@ h4{
 		flex-direction: column;
 		flex: 3 1 33%;
 	}
+
 }
 
 @media (max-width: 42em) {
@@ -162,5 +180,11 @@ h4{
 @media (max-width: 36em) {
 	.shopbannertext{
 		transform: translate(0%, -250%);
+	}
+
+	.image_shopgd{
+	margin-left: -2.8em;
+	width: 250px;
+	height: auto;
 	}
 }
