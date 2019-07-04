@@ -133,8 +133,8 @@ section code {
 
   h4{
     font-family: 'Lato';
-    font-weight: normal;
-    font-style: bolder;
+    font-style: normal;
+    font-weight: bold;
     font-size:1.25rem;
   }
 
