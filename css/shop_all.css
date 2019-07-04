@@ -167,6 +167,8 @@ h4{
 	.shop_all_grid_r1, .shop_all_grid_r2, .shop_all_grid_r3{
 		flex-direction: column;
 		flex: 3 1 33%;
+		margin-right: 0.5em;
+		text-align: center;
 	}
 
 }
