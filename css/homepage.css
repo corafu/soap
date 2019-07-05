@@ -662,7 +662,6 @@ a{
 
 	.footer_set1{
 		flex: 1 1 25%;
-		margin-left: 0em;
 	}
 
 	.footer_set2{
@@ -754,6 +753,17 @@ a{
 	}
 }
 
+@media (max-width: 500px) {
+
+	.footer_set1{
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		flex: 2 1 25%;
+		margin-right: 1em;
+		margin-left: 0.35em;
+	}
+
 @media (max-width: 425px) {
 	.footer_links{
 	flex-direction: row;
@@ -768,6 +778,7 @@ a{
 		text-align: left;
 		flex: 2 1 25%;
 		margin-right: 1em;
+		margin-left: -0.85em;
 	}
 
 	.footer_set2{
