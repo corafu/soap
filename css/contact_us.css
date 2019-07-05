@@ -225,4 +225,14 @@
     width: 94%; 
     padding: 100px;
     }
+
 }
+
+/*
+@media (max-width: 1920px) {
+.submit_button{
+	margin-right: 100px;
+	
+    }
+}
+*/
