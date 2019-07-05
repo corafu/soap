@@ -17,6 +17,7 @@ text-align: center;
 }
 
 .content{
+	 margin-top: -1rem;
 	 margin-left: 9.8rem;
   	 margin-right: 9.8rem;
   	 padding-bottom: 5em;
