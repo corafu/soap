@@ -768,7 +768,7 @@ a{
 		flex-direction: column;
 		margin-left: 0.3em;
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%;
 	}
 
 	.footer_set2{
@@ -779,7 +779,7 @@ a{
 		margin-left: 1em;
 		*/
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%; 
 	}
 
 	.footer_set3{
@@ -790,14 +790,14 @@ a{
 		margin-left: 1em;
 		*/
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%;
 	}
 
 	.footer_set4{
 		display: flex;
 		flex-direction: column;
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%; 
 	}
 
 	#shop_all_button{
@@ -824,7 +824,7 @@ a{
 		flex-direction: column;
 		margin-left: -0.8em;
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%; 
 	}
 
 	.footer_set2{
@@ -836,7 +836,7 @@ a{
 		margin-left: 1em;
 		*/
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%;
 	}
 
 	.footer_set3{
@@ -847,7 +847,7 @@ a{
 		margin-left: 1em;
 		*/
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%; 
 	}
 
 	.footer_set4{
@@ -855,15 +855,15 @@ a{
 		flex-direction: column;
 		margin-left: -0.8em;
 		text-align: left;
-		flex: 2 1 25% 
+		flex: 2 1 25%; 
 	}
 	
 }
 
 @media (max-width: 320px) {
 	.footer_links{
-	flex-direction: row;
 	display: flex;
+	flex-direction: row;
 	text-decoration: none;
 	flex-wrap: wrap;
 	align-content: space-around;
@@ -877,12 +877,13 @@ a{
 		margin-left: 1.5em;
 		margin-bottom: 0;
 		text-align: left;
-		flex: 2 1 50% 
+		/*
+		flex: 2 1 ,50%; 
+		*/
 	}
 
 	#footer_link1{
 	width:100%;
-	/*background-color: red;*/
 	flex: 2 1 31%;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
@@ -896,7 +897,6 @@ a{
 
 	#footer_link2{
 		width:100%;
-		/*background-color: yellow;*/
 		flex: 2 1 69%;
 		margin-left: 0.5em;
 		margin-right: 0.5em;
@@ -911,41 +911,46 @@ a{
 	.footer_set2{
 		display: flex;
 		flex-direction: column;
-		/*background-color: green;*/
 		margin-right: 1.9em;
 		margin-left: 1.5em;
 		text-align: left;
-		flex: 2 1 50% 
+		/*
+		flex: 2 1 ,50%;
+		*/
 	}
 
 	.footer_set3{
 		display: flex;
 		flex-direction: column;
-		/*background-color: green;*/
 		margin-right: 1.9em;
 		margin-left: 1.5em;
 		margin-top: -2.9em;
 		text-align: left;
-		flex: 2 1 50% 
+		/*
+		flex: 2 1 ,50%;
+		*/
 	}
 
 	.footer_set4{
 		display: flex;
 		flex-direction: column;
-		/*background-color: green;*/
 		margin-right: 1.9em;
 		margin-left: 1.5em;
 		margin-top: 0.9em;
 		text-align: left;
-		flex: 2 1 50% 
+		/*
+		flex: 2 1 ,50%; 
+		*/
 	}
+
 
 	#shop_all_button{
-		/*margin-top: 7em;*/
 		z-index: 1000000;
 		position:absolute;
-
-		right:43%;
-		top:70%;
+		right: 43%;
+		top: 70%;
 	}
+	
+
 }
+
