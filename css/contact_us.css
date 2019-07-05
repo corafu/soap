@@ -204,7 +204,25 @@
 		transform: translate(0%, -250%);
 	}
 
+	.email_phone{
+		margin-left: 3.2rem;
+	}
+
 	.contact_information2{
 		margin-right: 25px;
+		margin-left: -0.8em;
 	}
+
+
+}
+
+@media (max-width: 320px) {
+	#inquiry{
+    display: block;
+    /*
+    width: 90%; 
+    */
+    width: 94%; 
+    padding: 100px;
+    }
 }
