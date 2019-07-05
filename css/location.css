@@ -8,11 +8,11 @@ img{
 }
 
 #locationbanner{
-  max-width: 100%;
+width: 1920px;
 }
 
 .locationbannertext{
-  transform: translate(0%, -550%);
+  transform: translate(0%, -780%);
 }
 
 .location_grid{
@@ -104,7 +104,7 @@ img{
 
 @media (max-width: 36em) {
   .locationbannertext{
-    transform: translate(0%, -300%);
+    transform: translate(0%, -245%);
   }
 }
 
