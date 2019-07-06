@@ -3,6 +3,19 @@ h4{
   font-weight: bold;
 }
 
+img{
+  max-width: 100%;
+}
+
+
+.image{
+	padding: 0em;
+	background-color: white;
+	text-align: center;
+}
+
+
+
 .shop_all_banner{
 	/*padding: 4.5em;*/
 	text-align: center;
@@ -11,11 +24,11 @@ h4{
 }
 
 .shopbannertext{
-	transform: translate(0%, -450%);
+	transform: translate(0%, -630%);
 }
 
 #shopbanner{
-	max-width:100%;
+	width: 1920px;
 }
 
 
