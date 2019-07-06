@@ -1,14 +1,25 @@
-.image{
-/*background-color: rgba(255,204, 153, .9);*/
-text-align: center;
+
+img{
+  max-width: 100%;
 }
 
+
+.image{
+	padding: 0em;
+	background-color: white;
+	text-align: center;
+}
+
+
 .aboutusbannertext{
+	/*
 	transform: translate(0%, -450%);
+	*/
+	transform: translate(0%, -630%);
 }
 
 #aboutusbanner{
-	max-width:100%;
+	width: 1920px;
 }
 
 .content p{
