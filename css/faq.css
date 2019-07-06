@@ -1,14 +1,28 @@
+
+
+img{
+  max-width: 100%;
+}
+
+
+
 .image{
-  /*background-color: rgba(255,204, 153, .9);*/
+  padding: 0em;
+  background-color: white;
   text-align: center;
 }
 
+
 .faqbannertext{
-  transform: translate(0%, -450%);
+  transform: translate(0%, -630%);
+
 }
 
 #faqbanner{
+  /*
   max-width: 100%;
+  */
+    width: 1920px;
 }
 
 
