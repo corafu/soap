@@ -1,6 +1,6 @@
 
 img{
-  max-width: 100%;
+	max-width: 100%;
 }
 
 
@@ -23,15 +23,15 @@ img{
 }
 
 .content p{
-  font-weight: normal;
-  font-family: arial;
+	font-weight: normal;
+	font-family: arial;
 }
 
 .content{
-	 margin-top: -1rem;
-	 margin-left: 9.8rem;
-  	 margin-right: 9.8rem;
-  	 padding-bottom: 5em;
+	margin-top: -1rem;
+	margin-left: 17rem;
+	margin-right: 17rem;
+	margin-bottom: 5em;
 }
 
 #philosophy{
@@ -41,44 +41,81 @@ img{
 
 /*---- RESPONSIVE STUFF ----*/
 
-@media (max-width: 66em){
-	.aboutusbannertext{
-		transform: translate(0%, -350%);
-	}
-}
-
-@media (max-width: 50em){
+@media (max-width: 1440px){
 	.aboutusbannertext{
 		transform: translate(0%, -300%);
 	}
 
 	.content{
-	 margin-left: 7rem;
-  	 margin-right: 7rem;
-  	 padding-bottom: 5em;
+		margin-top: -1.75em;
+		margin-right: 13rem;
+		margin-left: 13rem;
+		margin-bottom: -1.25em;
 	}
 }
 
-@media (max-width: 42em) {
+@media (max-width: 1024px){
 	.aboutusbannertext{
-		transform: translate(0%, -275%);
+		transform: translate(0%, -375%);
 	}
 
 	.content{
-	 margin-left: 6rem;
-  	 margin-right: 6rem;
-  	 padding-bottom: 5em;
+		margin-top: -1.75em;
+		margin-right: 9rem;
+		margin-left: 9rem;
+		margin-bottom: -1.25em;
 	}
 }
 
-@media (max-width: 36em) {
+
+@media (max-width: 768px){
 	.aboutusbannertext{
-		transform: translate(0%, -250%);
+		transform: translate(0%, -325%);
 	}
 
 	.content{
-	 margin-left: 3rem;
-  	 margin-right: 3rem;
-  	 padding-bottom: 5em;
+		margin-top: -1.75em;
+		margin-right: 7rem;
+		margin-left: 7rem;
+		margin-bottom: -1.25em;
+	}
+}
+
+@media (max-width: 425px){
+	.aboutusbannertext{
+		transform: translate(0%, -240%);
+	}
+
+	.content{
+		margin-top: -1.75em;
+		margin-right: 4.5rem;
+		margin-left: 4.5rem;
+		margin-bottom: -1.25em;
+	}
+}
+
+@media (max-width: 375px) {
+	.aboutusbannertext{
+		transform: translate(0%, -225%);
+	}
+
+	.content{
+		margin-top: -1.7em;
+		margin-left: 4rem;
+		margin-right: 5rem;
+		margin-bottom: -1.25em;
+	}
+}
+
+@media (max-width: 320px) {
+	.aboutusbannertext{
+		transform: translate(0%, -205%);
+	}
+
+	.content{
+		margin-top: -1.75em;
+		margin-left: 3rem;
+		margin-right: 3rem;
+		margin-bottom: -1.25em;
 	}
 }
