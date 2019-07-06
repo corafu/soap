@@ -121,7 +121,12 @@
 
 .submit_button{
 	text-align: right;
-	margin-right: 70px;
+
+	/*
+	margin-right: 102px;
+	*/
+
+	margin-right: 5.5%;
 
 }
 
@@ -161,9 +166,11 @@
 }
 
 @media (max-width: 70em){
+	/*
 	.submit_button{
 	margin-right: 65px;
     }
+    */
 }
 
 @media (max-width: 66em){
@@ -175,11 +182,11 @@
 		margin-right: 20px;
 	}
 
-
+/*
 	.submit_button{
 	margin-right: 65px;
     }
-
+*/
     
 	
 /*
@@ -209,9 +216,11 @@
 }
 
 @media (max-width: 55em){
+	/*
 	.submit_button{
 	margin-right: 60px;
     }
+    */
 }
 
 @media (max-width: 50em){
@@ -258,12 +267,11 @@
     padding: 130px;
     }
 
+	/*
     .submit_button{
 	text-align: center;
-	/*
-	margin-right: 70px;
-	*/
     }
+    */
 
 }
 
@@ -308,6 +316,33 @@
     */
     width: 94%; 
     padding: 100px;
+    }
+
+}
+
+@media (max-width: 500px) {
+ 	.submit_button{
+	text-align: center;
+	margin-left: 20px;
+    }
+    
+
+}
+
+@media (max-width: 1200px) {
+ 	.button{
+	 margin-right: -10px;
+	 
+	
+    }
+
+}
+
+
+@media (max-width: 1440px) {
+ 	.submit_button{
+	 margin-right: 80px;
+	
     }
 
 }
