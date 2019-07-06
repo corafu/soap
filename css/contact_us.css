@@ -21,19 +21,103 @@
 	margin-right: 10px;
 }
 
-/*
-#fname{
-	width: 80%;
+/* contact_us - more information */
+  #fname2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #lname2{
+    display: block;
+    width: 90%; 
+    padding: 5px;
+  }
+
+  #eaddress2{
+    display: block;
+    width: 95%; 
+    padding: 5px;
+  }
+
+  #inquiry{
+    display: block;
+    width: 95%; 
+    padding: 130px;
+  }
+
+.email_phone{
+     margin-top: -1em;
+  	 margin-left: 4rem;
+  	 margin-right: 3.5rem;
+  	 padding-bottom: 1em;
+  }
+
+.image{
+	 text-align: center;
+  }
+
+    #email{
+     padding-bottom: 1.2em;
+     padding-top: 0.2em;
+  }
+
+  .grid-container9{
+	 display: flex;
+	 justify-content: space-between;
+  }
+
+  #contact_information_item3{
+	  padding: 1em 0em;
+	  flex: 2 1 100%;
+  }
+
+/* Contact Information in contact_us page */
+.grid-container11{
+  display: flex;
+  justify-content: space-between;
 }
 
-#lname{
-	width: 80%;
+.contact_information_item4 {
+  padding: 1em 0em;
+  flex: 2 1 50%;
 }
 
-#email{
-	padding-top: 0em;
+.grid-container12{
+  display: flex;
+  justify-content: space-between;
 }
-*/
+
+#contact_information_item5 {
+  padding: 1em 0em;
+  flex: 2 1 100%;
+}
+
+
+/* Styling for Confirm Button */
+  .button{
+    display: inline-block;
+    padding: .8em 1.2em;
+    color: black;
+    background-color: rgb(247, 229, 228);
+    text-decoration: none;
+    /*
+    -webkit-transition: background-color 0.2s ease-out;
+    */
+    transition: background-color 0.2s ease-out;
+    letter-spacing: .1em;
+    border: none;
+    font-family: Arial;
+    font-size: .9rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+  .button:hover, .button:active, .button:focus{
+    color: white;
+    background-color: rgb(236, 190, 189);
+    text-decoration: none;
+  }
 
 .submit_button{
 	text-align: right;
