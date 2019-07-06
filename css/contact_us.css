@@ -1,15 +1,27 @@
 #contactusbanner{
+	width: 1920px;
+	/*
 	max-width: 100%;
+	*/
 }
 
+img{
+  max-width: 100%;
+}
+
+
 .contactusbannertext{
+	/*
 	transform: translate(0, -450%);
+	*/
+	transform: translate(0%, -630%);
 }
 
 .image{
 	padding: 0em;
 	background-color: white;
 }
+
 
 .contact_content{
 	 margin-left: 4rem; 
