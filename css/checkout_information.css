@@ -245,12 +245,9 @@
   .confirm_button{
   	text-align: right;
     /*
-  	margin-right: 3.6em;
-    */
-    /*
-    margin-right: 67px;
-    */
      margin-right: 92px;
+     */
+     margin-right: 5%;
     
   }
 
@@ -338,25 +335,53 @@
 
 /* Responsive Section */
 @media (max-width: 320px) {
-  .confirm_button{
-    margin-right: 100px;
-    
-  }
- 
+  
+  input[type=text]{
+  margin-left: -10px;
+
+ }
+
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
+   input[type=text]{
+  margin-left: -5px;
+
+ }
+}
+
+
+@media (max-width: 500px){
    .content{
-       margin-right: 1rem; 
+       margin-left: 2.2rem;
 
     }
+  
+ .confirm_button{
+    text-align: center;
+    margin-left: 25px;
+ 
+  }
+  
+  
 }
+
+/*
+@media (max-width: 600px){
+    .content{
+      margin-left: 48px;
+
+    }
+  
+}
+*/
 
 
 @media (max-width: 800px) {
   
    .content{
-       margin-right: 0rem; 
+       margin-right: -1.8rem; 
 
     }
     
@@ -473,35 +498,32 @@
     padding: 5px;
   }
 
- .confirm_button{
-     text-align: center;
-    
+
+  .confirm_button{
+     margin-right: 72px;
+     
   }
+  
 
 }
 
 
 
 @media (max-width: 1024px) {
+  /*
    .confirm_button{
      text-align: right;
-     /*
-     margin-right: 3em;
-     */
   }
- 
+ */
 }
 
 
-@media (max-width: 1050px) {
-   .confirm_button{
-     text-align: right;
-     /*
-     margin-right: 3em;
-     */
+
+@media (max-width: 1100px) {
+   .button{
+     margin-right: 15px;
      
   }
- 
 }
 
 
@@ -525,32 +547,4 @@
 
   
 }
-
-
-@media (max-width: 1700px) {
-   .confirm_button{
-
-    /*
-    margin-right: 80px;
-    */
-
-    margin-right: 5%;
-    
-  }
- 
-}
-
-/*
-
-@media (max-width: 1920px) {
-   .confirm_button{
-     margin-right: 92px;
-    
-  }
- 
-}
-
-*/
-
-
 
