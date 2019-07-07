@@ -1,136 +1,136 @@
  *, *::before, *::after{
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-  /* Styling for Text Input Field */
+/* Styling for Text Input Field */
 
-  /* checkout_information - contact information */
-  #fname{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+/* checkout_information - contact information */
+#fname{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #lname{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#lname{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #eaddress{
-    display: block;
-    width: 95%; 
-    padding: 5px;
-  }
+#eaddress{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
 
- /* checkout_information - shipping address */
-  #aline1{
-    display: block;
-    width: 95%; 
-    padding: 5px;
-  }
+/* checkout_information - shipping address */
+#aline1{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
-  #aline2{
-    display: block;
-    width: 95%; 
-    padding: 5px;
-  }
+#aline2{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
-  #city{
-    display: block;
-    width: 85%; 
-    padding: 5px;
-  }
+#city{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
-  #pcode{
-    display: block;
-    width: 85%; 
-    padding: 5px;
-  }
+#pcode{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
-  #country{
-    display: block;
-    width: 85%; 
-    padding: 5px;
-  }
+#country{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
- /* checkout_information - billing information */
-   #aline3{
-      display: block;
-      width: 95%; 
-      padding: 5px;
-    }
+/* checkout_information - billing information */
+#aline3{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
-    #aline4{
-      display: block;
-      width: 95%; 
-      padding: 5px;
-    }
+#aline4{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
-    #city2{
-      display: block;
-      width: 85%; 
-      padding: 5px;
-    }
+#city2{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
-    #pcode2{
-      display: block;
-      width: 85%; 
-      padding: 5px;
-    }
+#pcode2{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
-    #country2{
-      display: block;
-      width: 85%; 
-      padding: 5px;
-    }
+#country2{
+  display: block;
+  width: 85%; 
+  padding: 5px;
+}
 
- /* checkout_information - payment information */
-  #cnumber{
-    display: block;
-    width: 95%; 
-    padding: 5px;
-  }
- 
-  #edate{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+/* checkout_information - payment information */
+#cnumber{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
-  #cvv{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    }
+#edate{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
- /* contact_us - more information */
-  #fname2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#cvv{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #lname2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+/* contact_us - more information */
+#fname2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #eaddress2{
-    display: block;
-    width: 95%; 
-    padding: 5px;
-  }
+#lname2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #inquiry{
-    display: block;
-    width: 95%; 
-    padding: 130px;
-  }
+#eaddress2{
+  display: block;
+  width: 95%; 
+  padding: 5px;
+}
 
- 
+#inquiry{
+  display: block;
+  width: 95%; 
+  padding: 130px;
+}
+
+
 /* Contact Information in checkout_information */
 .grid-container1{
 	display: flex;
@@ -140,6 +140,7 @@
 .contact_information_item1 {
 	padding: 1em 0em;
 	flex: 2 1 50%;
+  margin-top: 0.1rem;
 }
 
 .grid-container2{
@@ -150,6 +151,7 @@
 #contact_information_item2 {
 	padding: 1em 0em;
 	flex: 2 1 100%;
+  margin-top: 0.1rem;
 }
 
 
@@ -157,11 +159,13 @@
 .grid-container3{
 	display: flex;
 	justify-content: space-between;
+  margin-top: 1.2em;
 }
 
 .shipping_address_item1 {
 	padding: 1em 0em;
 	flex: 2 1 100%;
+  margin-top: 0.2rem;
 }
 
 .grid-container4{
@@ -172,6 +176,7 @@
 .shipping_address_item2 {
 	padding: 1em 0em;
 	flex: 2 1 100%;
+  margin-top: 0.2rem;
 }
 
 .grid-container5{
@@ -182,6 +187,8 @@
 .shipping_address_item3 {
 	padding: 0em 0em;
 	flex: 3 1 33.3%;
+  margin-top: 0.2rem;
+  padding-right: 0.1em;
 }
 
 /* Billing Information */
@@ -190,13 +197,13 @@
 	justify-content: space-between;
 }
 
- input[type=checkbox]{
- 	 margin-top: 1rem;
- 	 margin-bottom: 1rem;
+input[type=checkbox]{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
 
- }
+}
 
- /* Payment Information */
+/* Payment Information */
 .grid-container7{
 	display: flex;
 	justify-content: space-between;
@@ -218,12 +225,12 @@
 }
 
 /* Styling for Confirm Button */
-  .button{
-    display: inline-block;
-    padding: .8em 1.2em;
-    color: black;
-    background-color: rgb(247, 229, 228);
-    text-decoration: none;
+.button{
+  display: inline-block;
+  padding: .8em 1.2em;
+  color: black;
+  background-color: rgb(247, 229, 228);
+  text-decoration: none;
     /*
     -webkit-transition: background-color 0.2s ease-out;
     */
@@ -234,7 +241,7 @@
     font-size: .9rem;
     margin-top: 2em;
     margin-bottom: 2em;
-    }
+  }
 
   .button:hover, .button:active, .button:focus{
     color: white;
@@ -248,13 +255,13 @@
      margin-right: 92px;
      */
      margin-right: 5%;
-    
-  }
 
-  .content{
-  	 margin-left: 4rem; 
-     margin-top: 4rem;
-     margin-right: 10px;
+   }
+
+   .content{
+    margin-left: 4rem; 
+    margin-top: 4.01rem;
+    margin-right: 10px;
 
   }
 
@@ -271,26 +278,26 @@
   }
 
   .email_phone{
-     margin-top: -1em;
-  	 margin-left: 4rem;
-  	 margin-right: 3.5rem;
-  	 padding-bottom: 1em;
-  }
+   margin-top: -1em;
+   margin-left: 4rem;
+   margin-right: 3.5rem;
+   padding-bottom: 1em;
+ }
 
 
 
-  /* Styling for contact_us page */
+ /* Styling for contact_us page */
 
-  .image{
-	 background-color: rgba(255,204, 153, .9);
-	 text-align: center;
-    padding: 8em;
-  }
+ .image{
+  background-color: rgba(255,204, 153, .9);
+  text-align: center;
+  padding: 8em;
+}
 
-  #email{
-     padding-bottom: 1.2em;
-     padding-top: 0.2em;
-  }
+#email{
+ padding-bottom: 1.2em;
+ padding-top: 0.2em;
+}
 
 
 /*
@@ -298,20 +305,20 @@
 	  padding: 1em 0em;
  	  flex: 2 1 100%;
   }
-*/
+  */
 
   .grid-container9{
-	 display: flex;
-	 justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
 
   #contact_information_item3{
-	  padding: 1em 0em;
-	  flex: 2 1 100%;
-  }
+   padding: 1em 0em;
+   flex: 2 1 100%;
+ }
 
-/* Contact Information in contact_us page */
-.grid-container11{
+ /* Contact Information in contact_us page */
+ .grid-container11{
   display: flex;
   justify-content: space-between;
 }
@@ -335,216 +342,359 @@
 
 /* Responsive Section */
 @media (max-width: 320px) {
-  
+
   input[type=text]{
-  margin-left: -10px;
+    margin-left: -10px;
 
- }
-
-
+  }
 }
 
 @media (max-width: 375px) {
-   input[type=text]{
+ input[type=text]{
   margin-left: -5px;
 
- }
+}
 }
 
 
 @media (max-width: 500px){
-   .content{
-       margin-left: 2.2rem;
+ .content{
+   margin-left: 2.2rem;
 
-    }
-  
+ }
+
  .confirm_button{
-    text-align: center;
-    margin-left: 25px;
- 
-  }
-  
-  
+  text-align: center;
+  margin-left: 25px;
+
 }
 
-/*
-@media (max-width: 600px){
-    .content{
-      margin-left: 48px;
 
-    }
-  
 }
-*/
 
 
 @media (max-width: 800px) {
-  
-   .content{
-       margin-right: -1.8rem; 
 
-    }
-    
+ .grid-container1{
+  display:flex;
+  flex-direction: column;
+}
 
-  .grid-container1{
-    display:flex;
-    flex-direction: column;
+#eaddress{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  }
-
-  #eaddress{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
-
-
-
-  .grid-container5{
+.grid-container5{
   display: flex;
   flex-direction: column;
-  }
+}
 
-  #aline1{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#aline1{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #aline2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 1em;
-  }
+#aline2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 1em;
+}
 
+#city{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 2em;
+}
 
-  #city{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 2em;
-  }
+#pcode{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 2em;
+}
 
-  #pcode{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 2em;
-  }
-
-  #country{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
-
-
-  #aline3{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
-
-  #aline4{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 1em;
-  }
+#country{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
 
-  #city2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 2em;
-  }
+#aline3{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #pcode2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-    margin-bottom: 2em;
-  }
-
-  #country2{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#aline4{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 1em;
+}
 
 
+#city2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 2em;
+}
 
-  .grid-container8{
+#pcode2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+  margin-bottom: 2em;
+}
+
+#country2{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
+
+.grid-container8{
   display: flex;
   flex-direction: column;
-  }
+}
 
-  #cnumber{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
-   #edate{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#cnumber{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  #cvv{
-    display: block;
-    width: 90%; 
-    padding: 5px;
-  }
+#edate{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
+#cvv{
+  display: block;
+  width: 90%; 
+  padding: 5px;
+}
 
-  .confirm_button{
-     margin-right: 72px;
-     
-  }
-  
-
+.confirm_button{
+  margin-right: 72px;
+}
 }
 
 
 
-@media (max-width: 1024px) {
-  /*
-   .confirm_button{
-     text-align: right;
-  }
- */
-}
-
-
-
+/*
 @media (max-width: 1100px) {
-   .button{
-     margin-right: 15px;
-     
-  }
+ .button{
+   margin-right: 15px;
+
+ }
 }
 
 
 @media (max-width: 1120px) {
-   .contact_information{
-       margin-right: 1rem; 
-   }
+ .contact_information{
+   margin-right: 1rem; 
+ }
 
-    .shipping_address{
-      margin-right: 1rem; 
-    }
-
-    .billing_information{
-      margin-right: 1rem; 
-    }
-
-   .payment_information{
-       margin-right: 1rem; 
-
-    }
-
-  
+ .shipping_address{
+  margin-right: 1rem; 
 }
 
+.billing_information{
+  margin-right: 1rem; 
+}
+
+.payment_information{
+ margin-right: 1rem; 
+
+}
+}
+*/
+
+@media(max-width: 1440px){
+
+  .grid-container1, .grid-container2, .grid-container3, .grid-container4, .grid-container5, .grid-container7, .grid-container8, .grid-container9{
+    margin-left: -0.4em;
+  }
+  .contact_information_item1{
+    margin-top: 0.4em;
+    padding-left: 0.5em;
+  }
+
+  #contact_information_item2{
+    padding-left: 0.6em;
+  }
+
+  .shipping_address_item1{
+    padding-left: 0.6em;
+    margin-top: 0.25em;
+  }
+
+  .shipping_address_item2{
+    padding-left: 0.6em;
+    margin-top: 0em;
+  }
+
+  .shipping_address_item3{
+    padding-left: 8px;
+    margin-top: 0.6em;
+  }
+
+  #payment_information_item1{
+    padding-left: 0.6em;
+    padding-top: 0.1em;
+  }
+
+  .payment_information_item2{
+    padding-left: 0.45em;
+    padding-top: 0.1em;
+  }
+
+}
+
+@media(max-width: 1024px){
+  .contact_information_item1{
+    margin-top: 0.4em;
+    padding-left: 0.5em;
+  }
+
+  #contact_information_item2{
+    padding-left: 0.6em;
+  }
+
+  .shipping_address_item1{
+    margin-top: 1.6em;
+  }
+
+  .shipping_address_item2{
+    margin-top: 20px;
+  }
+
+  .shipping_address_item1, .shipping_address_item2{
+    padding-left: 0.6em;
+    
+  }
+
+  .grid-container1, .grid-container2, .grid-container3, .grid-container4, .grid-container5, .grid-container7, .grid-container8, .grid-container9{
+    margin-left: 0em;
+  }
+
+  .grid-container6{
+    margin-left: 0.6em;
+    margin-top: 1em;
+  }
+
+  .shipping_address_item3{
+    padding-left: 8px;
+    margin-top: 1.8em;
+  }
+
+  #payment_information_item1{
+    padding-left: 0.6em;
+    padding-top: 1.1em;
+  }
+
+  .payment_information_item2{
+    padding-left: 0.6em;
+    padding-top: 0.2em;
+  }
+}
+
+@media(max-width: 768px){
+  .grid-container1, .grid-container2, .grid-container3, .grid-container4, .grid-container5, .grid-container7, .grid-container8, .grid-container9{
+    padding-left: 0.2em;
+  }
+
+  .contact_information_item1{
+    padding-top: 1.5em;
+  }
+
+  #contact_information_item2{
+    padding-top: 0.1em;
+  }
+
+  .shipping_address_item1{
+    padding-top: 0.4em;
+  }
+
+  .shipping_address_item2{
+    padding-top: 2em;
+  }
+
+  .shipping_address_item3{
+    padding-left: 8px;
+    margin-top: 1.1em;
+  }
+
+  #payment_information_item1{
+    padding-left: 0.6em;
+    padding-top: 0em;
+  }
+
+  .payment_information_item2{
+    padding-left: 0.6em;
+  }
+}
+
+@media(max-width: 375px){
+  .content{
+    margin: 0em;
+    margin-left: 1em;
+    padding: 1.5em;
+  }
+}
+
+@media(max-width: 320px){
+  .content{
+    margin: 0em;
+    margin-left: 1em;
+    padding: 1em;
+  }
+
+  .grid-container1, .grid-container2, .grid-container3, .grid-container4, .grid-container5, .grid-container6, .grid-container7, .grid-container8, .grid-container9{
+    padding: 0em;
+    margin: 0em;
+  }
+
+  .contact_information_item1{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  #contact_information_item2{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .shipping_address_item1{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .shipping_address_item2{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .shipping_address_item3{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  #payment_information_item1{
+    padding: 1em;
+    margin: 0em;
+  }
+
+  .payment_information_item2{
+    padding: 1em;
+    margin: 0em;
+  }
+}
