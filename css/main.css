@@ -462,3 +462,17 @@ section code {
   flex: 12 1 16.5%;
   padding: 1em;
 }
+
+
+#sitemap{
+  margin-top: 2em;
+  width: 100%;
+}
+
+#grid-structure-1, #grid-structure-2, #grid-structure-3{
+  width: 80%;
+}
+
+#soapsample{
+  width:65%;
+}
