@@ -8,7 +8,7 @@ img{
 }
 
 #locationbanner{
-width: 1920px;
+  width: 1920px;
 }
 
 .locationbannertext{
@@ -39,7 +39,7 @@ width: 1920px;
 .address1{
   flex: 2 1 50%;
   text-align: center;
-  padding-top: 15em;
+  padding-top: 16em;
   
 }
 
@@ -61,7 +61,7 @@ width: 1920px;
 .address2{
   flex: 2 1 50%;
   text-align: center;
-  padding-top: 15em;
+  padding-top: 16em;
   max-width: 100%;
 }
 
@@ -79,7 +79,7 @@ width: 1920px;
 
 /*---- RESPONSIVE STUFF ----*/
 
-@media (max-width: 62em){
+/*@media (max-width: 62em){
   .locationbannertext{
     transform: translate(0%,-425%);
   }
@@ -114,17 +114,43 @@ width: 1920px;
     transform: translate(0%, -245%);
   }
 }
+------------------------------------------------------------*/
 
-@media(max-width: 58em){
-  .address1{
-    padding-top: 5.5em;
+@media (max-width: 1440px){
+  .locationbannertext{
+    transform: translate(0%, -620%);
   }
+
+  .address1{
+    padding-top: 11.5em;
+  }
+
   .address2{
-    padding-top: 6em;
+    padding-top: 11.5em;
   }
 }
 
-@media(max-width: 55em){
+@media (max-width: 1024px){
+  .locationbannertext{
+    transform: translate(0%, -470%);
+  }
+
+  .address1{
+    padding-top: 7.5em;
+  }
+
+  .address2{
+    padding-top: 7.5em;
+  }
+
+}
+
+
+@media (max-width: 768px){
+  .locationbannertext{
+    transform: translate(0%, -385%);
+  }
+
   .content1 .content2{
     flex-direction: column;
     display: flex;
@@ -140,6 +166,7 @@ width: 1920px;
     flex: 1 1 100%;
     padding-bottom: 4em;
     order: 2;
+    padding-top: 3.75em;
 
   }
 
@@ -152,10 +179,32 @@ width: 1920px;
   .address2{
     flex: 1 1 100%;
     order: 2;
-    padding-bottom: 4.25em;
+    padding-bottom: 4em;
+    padding-top: 3.75em;
+  }
 
+}
+
+@media (max-width: 425px){
+  .locationbannertext{
+    transform: translate(0%, -263%);
   }
 }
+
+@media (max-width: 375px) {
+  .locationbannertext{
+    transform: translate(0%, -245%);
+  }
+}
+
+@media (max-width: 320px) {
+  .locationbannertext{
+    transform: translate(0%, -230%);
+  }
+}
+
+/*-----------------------*/
+
 
 @media(max-width: 60em){
   img{
