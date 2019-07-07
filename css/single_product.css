@@ -250,6 +250,10 @@ img{
 		margin-left: 3em;
 	}
 
+	.star{
+		margin-left: 9em;
+	}
+
 	.review_new{
 		display: flex;
 		flex-direction: column;
@@ -262,6 +266,8 @@ img{
 
 	#star_blank{
 		flex: 1 1 100%;
+		margin-left: 9em;
+
 	}
 
 	#submit_button{
@@ -287,7 +293,7 @@ img{
 	}
 
 	#single_product_addcart_button{
-		margin-left: 4.5em;
+		margin-left: 4em;
 	}
 
 	.review_form_fields{
@@ -296,13 +302,13 @@ img{
 	}
 
 	#star_blank{
-		margin-left: 7.5em;
+		margin-left: 7em;
 		margin-top: 0em;
 		margin-bottom: 0em;
 	}
 
 	.star{
-		margin-left: 7.5em;
+		margin-left: 7.25em;
 	}
 
 	.reviewer{
