@@ -52,7 +52,7 @@ h4{
 	padding: 1em 0em;
 }
 
-#soapimage{
+.soapimage{
 	width: 100%;
 }
 
@@ -174,7 +174,7 @@ h4{
 		margin-left: 4em;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 
@@ -202,7 +202,7 @@ h4{
 		padding-top: 2em;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 	
@@ -247,7 +247,7 @@ h4{
 		padding-top: 1.5em;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 
@@ -292,7 +292,7 @@ h4{
 		max-width: 58.5%;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 
@@ -354,7 +354,7 @@ h4{
 		max-width: 58.5%;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 
@@ -417,7 +417,7 @@ h4{
 		max-width: 58.5%;
 	}
 
-	#soapimage{
+	.soapimage{
 		width: 100%;
 	}
 
