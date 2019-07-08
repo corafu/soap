@@ -90,9 +90,13 @@ h4 {
 
   .faq{
     margin-top: -1.75em;
-    margin-left: 13rem;
-    margin-right: 13rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-bottom: 4em;
+  }
+
+  .shipping{
+    margin-top: -4em;
   }
 
 }
@@ -109,6 +113,12 @@ h4 {
     margin-right: 9rem;
     margin-bottom: -4.5em;
   }
+
+  .shipping{
+    margin-top: 4em;
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
 }
 
 @media(max-width: 768px){
@@ -121,6 +131,12 @@ h4 {
     margin-left: 7rem;
     margin-right: 7rem;
     margin-bottom: 4.75em;
+  }
+
+   .shipping{
+    margin-top: -5em;
+    margin-left: 7rem;
+    margin-right: 7rem;
   }
 }
 
@@ -140,6 +156,7 @@ h4 {
   .shipping{
    margin-left: 4.5rem;
    margin-right: 4.5rem;
+   margin-top: 1em;
  }
 
  .ship_opt{
