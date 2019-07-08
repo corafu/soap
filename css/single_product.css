@@ -37,7 +37,7 @@ img{
 }
 
 .addtocart{
-	margin-top: 2em;
+	margin-top: 3em;
 }
 
 .product_review_grid{
@@ -53,15 +53,17 @@ img{
 	border-bottom: 1px solid black;
 }
 
-.product_r1, .product_r4{
+.product_r1{
 	display: flex;
 	/*background-color: purple;*/
 	border-bottom: 1px solid black;
 }
 
+
 .product_r2{
 	display: flex;
 }
+
 
 .star{
 	flex: 2 1 10%;
@@ -94,11 +96,12 @@ img{
 	color: rgb(236, 190, 189);
 }
 
+/*
 #single_product_addcart_button{
 	width: 26em;
 	text-align: center;
 }
-
+*/
 
 /*---- REVIEW PAGE --*/
 
