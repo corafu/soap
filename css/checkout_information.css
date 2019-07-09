@@ -605,6 +605,10 @@ input[type=checkbox]{
     padding-left: 0.6em;
     padding-top: 0.2em;
   }
+
+   h3{
+    margin-left: 0.5em;
+  }
 }
 
 @media(max-width: 768px){
@@ -648,6 +652,10 @@ input[type=checkbox]{
     margin: 0em;
     margin-left: 1em;
     padding: 1.5em;
+  }
+
+  h3{
+    margin-left: 0.3em;
   }
 }
 
@@ -696,5 +704,9 @@ input[type=checkbox]{
   .payment_information_item2{
     padding: 1em;
     margin: 0em;
+  }
+
+  h3{
+    margin-left: 0.7em;
   }
 }
