@@ -242,6 +242,19 @@ section code {
     font-family: arial;
   }
 
+  /*Grid Structure*/
+  .grid-structure{
+    display: flex;
+    flex-direction: row;
+  }
+  .grid-structure img{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+  }
+
   /*Grid structure
 
   .grid-box{
