@@ -1,0 +1,85 @@
+
+
+
+/* Styling for navigation bar */
+.nav-main-item{
+  display:inline-block;
+  color: black;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 1em;
+  font-weight: bold;
+}
+
+.nav-main-item:hover, .nav-main-item:active, .nav-main-item:focus{
+  text-decoration: none;
+}
+
+nav{
+  padding-left: 1.7em;
+}
+
+.nav-main{
+	display: flex;
+  	flex-wrap: wrap;
+  	flex-direction: row;
+}
+/*
+.nav-main-item{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+*/
+
+/* Styling for ALL navigation buttons on style guide */
+  .button-nav, .nav-main-item, .button-main-nav{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-weight: bold;
+  }
+
+  .button-nav:after, .nav-main-item:after, .button-main-nav:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2.5px solid rgb(236, 190, 189);
+    transition: 0.2s;
+  }
+
+/* Responsive Section */
+  @media (max-width: 425px) {
+  	h1{
+	text-align: center;
+	margin-right: 1.5em;
+	}
+
+	.nav-main{
+	  	margin-left: -0.5em;
+	}
+  }
+
+  @media (max-width: 375px) {
+	h1{
+	text-align: center;
+	}
+
+	.nav-main{
+		display: flex;
+	  	flex-wrap: wrap;
+	  	flex-direction: column;
+	  	margin-left: -1.5em;
+	}
+	
+	.nav-main-item{
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 100%;
+	text-align: center;
+	}
+	
+	
+  }
