@@ -126,6 +126,14 @@ nav{
 	 	margin-left: -2em;
 	 	margin-top: 3em;
 	 }
+
+	 #style_button, #reset_button{
+	 	margin-left: 0em;
+	 }
+
+	 #rendered-element{
+	 	margin-bottom: 1.5em;
+	 }
   }
 
   @media (max-width: 375px) {
